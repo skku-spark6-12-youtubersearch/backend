@@ -1,0 +1,19 @@
+{
+    "summary_update_date": "2021-01-16T05:11:09+09:00",
+    "channels_update_date": "2021-01-16T04:54:50+09:00",
+    "summary_items": [
+        {
+            "name": "Subscribers",
+            "desc": "구독자 수가 가장 많은 채널",
+            "channel_num": 10,
+            "builder_func_name": "subscribers",
+            "channel_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    ]
+}

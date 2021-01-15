@@ -1,0 +1,42 @@
+#!/bin/bash
+
+function kill_port() {
+    who=$1
+    port=$2
+
+    pid=$(netstat -tnlp 2>/dev/null | grep ":$port" | awk -F'LISTEN *|/' '/^(tcp|udp)/{print $2}')
+    if [ -n "$pid" ]
+    then
+        kill $pid
+        echo $who : Process $pid killed
+    fi
+    unset pid
+}
+
+function kill_all() {
+    kill_port "spark612 backend" "9000"
+}
+
+trap "kill_all; exit" SIGHUP SIGINT SIGTERM
+
+# check if someone is running the server
+is_using=$(netstat -ntlp 2> /dev/null | grep :9000)
+if [ -n "$is_using" ]; then
+    echo "The server is already running."
+    while true; do
+        read -p "Do you want to force quit it? (y/n)" yn
+        case $yn in
+            [Yy]* ) kill_all; break;;
+            [Nn]* ) exit;;
+            * ) echo "Please answer yes or no.";;
+        esac
+    done
+fi
+unset is_using
+unset yn
+
+clear
+
+# Execute Demo Webserver
+kill_port "spark612 backend" "9000"
+node server.js

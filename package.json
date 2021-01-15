@@ -1,0 +1,22 @@
+{
+  "name": "spark612",
+  "version": "1.0.0",
+  "description": "spark6-12 backend server",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skku-spark6-12-youtubersearch/backend.git"
+  },
+  "author": "Heekang Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skku-spark6-12-youtubersearch/backend/issues"
+  },
+  "homepage": "https://github.com/skku-spark6-12-youtubersearch/backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.32",
+    "mongoose": "^5.11.11"
+  }
+}
