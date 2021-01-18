@@ -28,7 +28,7 @@ router.get("/", async function(req, res, next) {
             summary_json = await buildSummary(summary_json);
         }
     } catch(err) {
-        logger.error(`${err}`, request=req);
+        logger.error(`${err.stack}`, request=req);
         res.sendStatus(400);
         return;
     }
@@ -37,22 +37,31 @@ router.get("/", async function(req, res, next) {
     for (let summary_item of summary_json.summary_items) {
         try {
             let query_filter = {
-                "_id": {
-                    $in: summary_item.channel_ids.map((id) => {
-                        return mongoose.Types.ObjectId(id);
-                    })
+                "id": {
+                    $in: summary_item.channel_ids
                 }
             }
 
-            let channels = await Channel.find(query_filter).exec();
+            let qresults = await Channel.find(query_filter).exec();
+            let channels = [];
+            for(let qresult of qresults) {
+                channels.push({
+                    "channel_id": qresult.id,
+                    "channel_title": qresult.title,
+                    "channel_photo": await fs.readFile(path.join(__ROOT_DIR, "summary/dummy-channel-img.png"), {"encoding": "base64"}),
+                    "subscriber_num": qresult.subscriber_num.sort((a, b) => { return (new Date(b.date)) - (new Date(a.date)); })[0],
+                    "video_num": qresult.video_num.sort((a, b) => { return (new Date(b.date)) - (new Date(a.date)); })[0],
+                    "view_num": qresult.view_num.sort((a, b) => { return (new Date(b.date)) - (new Date(a.date)); })[0]
+                })
+            }
 
             json.push({
-                "name": summary_item.name,
-                "desc": summary_item.desc,
+                "list_name": summary_item.name,
+                "list_desc": summary_item.desc,
                 "channels": channels
             });
         } catch (err) {
-            logger.warning(`${err}`, request=req);
+            logger.warning(`${err.stack}`, request=req);
         }
     }
 

@@ -1,18 +1,59 @@
 {
-    "summary_update_date": "2021-01-16T05:11:09+09:00",
-    "channels_update_date": "2021-01-16T04:54:50+09:00",
+    "summary_update_date": "2021-01-18T08:16:17+09:00",
+    "channels_update_date": "2021-01-18T08:16:06+09:00",
     "summary_items": [
         {
-            "name": "Subscribers",
+            "name": "SubscriberNum",
             "desc": "구독자 수가 가장 많은 채널",
             "channel_num": 10,
-            "builder_func_name": "subscribers",
+            "builder_func_name": "subscriber_num",
             "channel_ids": [
-                1,
-                2,
-                3,
-                4,
-                5
+                "UCjBp_7RuDBUYbd1LegWEJ8g",
+                "UCxutPqfWSdYqaK8_tlc5PBA",
+                "UCxLOTgnqpSqQp_kMPlb7PWw",
+                "UChQ-VMvdGrYZxviQVMTJOHg",
+                "UCbFzvzDu17eDZ3RIeaLRswQ",
+                "UCg7rkxrTnIhiHEpXY1ec9NA",
+                "UC4Qw1uE9kwUI4cCAx9HZtxw",
+                "UCNzcxCN_Hh_lu5RCSFXKgGQ",
+                "UCSHVH_AWVUc-C8-D8mh8W6A",
+                "UCYooECrv-fIXlPaDwEIaveA"
+            ]
+        },
+        {
+            "name": "VideoNum",
+            "desc": "동영상 수가 가장 많은 채널",
+            "channel_num": 10,
+            "builder_func_name": "video_num",
+            "channel_ids": [
+                "UCKDkGnyeib7mcU7LdD3x0jQ",
+                "UCVR8eG4I5Fies8NQFWF-KsA",
+                "UCAI86CUHDIkKXGA6YpVBhYg",
+                "UCQePzo3_oRB-6RAzBioc6pg",
+                "UCRZURXN2vyCYzB9eYbSKQiw",
+                "UCyHvSKT_bLDYpkv1JjjsLAg",
+                "UC-Zedn7a_RJyb5hUQ-aGZog",
+                "UCbt557PsOnMaspiSUjuSVVw",
+                "UClDbuB3bgZYVIaN3534c_ew",
+                "UCYX9IB_lU43EenSWKDlheUg"
+            ]
+        },
+        {
+            "name": "ViewNum",
+            "desc": "채널 조회수가 가장 많은 채널",
+            "channel_num": 10,
+            "builder_func_name": "view_num",
+            "channel_ids": [
+                "UChQ-VMvdGrYZxviQVMTJOHg",
+                "UCxutPqfWSdYqaK8_tlc5PBA",
+                "UCg7rkxrTnIhiHEpXY1ec9NA",
+                "UCEPuItFWOOJ2o5hTu65NlEg",
+                "UCYooECrv-fIXlPaDwEIaveA",
+                "UCta_NRwnsUaew0t3VNxBNyg",
+                "UCSHVH_AWVUc-C8-D8mh8W6A",
+                "UCyn_E0ZE8RNOnYnF3lVaCOQ",
+                "UCQJuZxeDv2P05YHcC-tIEVQ",
+                "UCbFzvzDu17eDZ3RIeaLRswQ"
             ]
         }
     ]
