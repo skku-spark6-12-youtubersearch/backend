@@ -35,8 +35,17 @@ app.use(express.json({
 
 app.use(utils.request_logger(logger));
 
+// CORS
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // Frontend 주소에 맞게 수정 필요
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    res.header("Access-Control-Allow-Methods", "POST,GET,OPTIONS,DELETE,PUT");
+    next();
+});
+
 app.use("/admin", require(path.join(__ROOT_DIR, "api/admin")));
 app.use("/summary", require(path.join(__ROOT_DIR, "api/summary")));
+app.use("/channel", require(path.join(__ROOT_DIR, "api/channel")));
 
 app.listen(9000, "0.0.0.0", () => {
     logger.info("Listening at http://0.0.0.0:9000");
