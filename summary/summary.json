@@ -1,6 +1,6 @@
 {
-    "summary_update_date": "2021-01-18T08:16:17+09:00",
-    "channels_update_date": "2021-01-18T08:16:06+09:00",
+    "summary_update_date": "2021-01-22T05:43:15+09:00",
+    "channels_update_date": "2021-01-23T01:46:01+09:00",
     "summary_items": [
         {
             "name": "SubscriberNum",
@@ -55,6 +55,13 @@
                 "UCQJuZxeDv2P05YHcC-tIEVQ",
                 "UCbFzvzDu17eDZ3RIeaLRswQ"
             ]
+        },
+        {
+            "name": "RecentUploadVideoNum",
+            "desc": "한 달 이내에 영상 업로드 수가 가장 많은 채널",
+            "channel_num": 10,
+            "builder_func_name": "recent_upload_video_num",
+            "channel_ids": []
         }
     ]
 }

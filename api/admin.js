@@ -29,72 +29,6 @@ router.use(function(req, res, next) {
     next();
 });
 
-router.post("/channel", async function(req, res, next) {
-/*
-id
-title
-desc
-videos
-subscribers
-categories
-tags
-namuwikis
-recent_video_ids
-popular_video_ids
-video_num
-upload_playlist_id
-country
-trailer_video_id
-default_language
-published_date
-view_num
-*/
-    let id = req.body.id;
-    let title = req.body.title;
-    let desc = req.body.desc;
-    let videos = req.body.videos;
-    let subscribers = req.body.subscribers;
-    let categories = req.body.categories;
-    let tags = req.body.tags;
-    let namuwikis = req.body.namuwikis;
-    let recent_video_ids = req.body.recent_video_ids;
-    let popular_video_ids = req.body.popular_video_ids;
-    let video_num = req.body.video_num;
-    let upload_playlist_id = req.body.upload_playlist_id;
-    let country = req.body.country;
-    let trailer_video_id = req.body.trailer_video_id;
-    let default_language = req.body.default_language;
-    let published_date = req.body.published_date;
-    let view_num = req.body.view_num;
-    
-    try {
-        await (new Channel({
-            id: id,
-            title: title,
-            desc: desc,
-            videos: videos,
-            subscriber_num: subscriber_num,
-            categories: categories,
-            tags: tags,
-            namuwikis: namuwikis,
-            recent_video_ids: recent_video_ids,
-            popular_video_ids: popular_video_ids,
-            video_num: video_num,
-            upload_playlist_id: upload_playlist_id,
-            country: country,
-            trailer_video_id: trailer_video_id,
-            default_language: default_language,
-            published_date: published_date,
-            view_num: view_num
-        })).save();
-        logger.success("Success", request=req, args=args);
-        res.sendStatus(200);
-    } catch(err) {
-        logger.error(`${err.stack}`, request=req, args=args);
-        res.sendStatus(400);
-    }
-});
-
 router.post("/channels", async function(req, res, next) {
     let channels = req.body.channels;
 
@@ -141,6 +75,144 @@ router.post("/channels", async function(req, res, next) {
 
     logger.success("Success", request=req);
     res.sendStatus(200);
+    return;
+});
+
+router.post("/channel/:id", async function(req, res, next) {
+    let args = {
+        id: req.params.id,
+        overwrite: req.query.overwrite
+    }
+
+    let overwrite = false; // 덮어쓰기 모드 (Default: false)
+    if (req.query.overwrite) overwrite = true;
+
+    let id = req.params.id;
+
+    let channel;
+    try {
+        channel = await Channel.findOne({ id: id }).exec();
+        if(!channel) throw new Error("No such ID");
+    } catch(err) {
+        logger.error(`${err.stack}`, request=req, args=args);
+        res.sendStatus(400);
+        return;
+    }
+
+    if(overwrite) {
+        let keys = [
+            "title",
+            "desc",
+            "videos",
+            "subscriber_num",
+            "categories",
+            "tags",
+            "namuwikis",
+            "recent_video_ids",
+            "popular_video_ids",
+            "video_num",
+            "upload_playlist_id",
+            "country",
+            "trailer_video_id",
+            "default_language",
+            "published_date",
+            "view_num"
+        ]
+
+        for(let key of keys) {
+            if(req.body[key]) {
+                channel[key] = req.body[key];
+            }
+        }
+    } else {
+        if(req.body.videos) {
+            let vids = channel.videos.map((video) => {
+                return video.id;
+            });
+
+            req.body.videos.forEach((new_video) => {
+                if(!vids.includes(new_video.id)) {
+                    channel.videos.push(new_video);
+                }
+            });
+        }
+
+        if(req.body.namuwikis) {
+            let titles = channel.namuwikis.map((namuwiki) => {
+                return namuwiki.title;
+            });
+
+            req.body.namuwikis.forEach((new_namuwiki) => {
+                if(!titles.includes(new_namuwiki.title)) {
+                    channel.namuwikis.push(namuwiki);
+                }
+            })
+        }
+
+        for(let key of ["categories", "tags"]) {
+            if(req.body[key]) {
+                req.body[key].forEach((value) => {
+                    if(!channel[key].includes(value)) {
+                        channel[key].push(value);
+                    }
+                })
+            }
+        }
+
+        for(let key of ["recent_video_ids", "popular_video_ids"]) {
+            let vids = channel.videos.map((video) => {
+                return video.id;
+            });
+
+            if(req.body[key]) {
+                req.body[key].forEach((vid) => {
+                    // videos에 해당 id를 가진 동영상이 있으면서, channel에 해당 값이 없는 경우에만 push
+                    if(vids.includes(vid) && !channel[key].includes(vid)) {
+                        channel[key].push(vid);
+                    }
+                })
+            }
+        }
+
+        for(let key of ["subscriber_num", "video_num", "view_num"]) {
+            if(req.body[key]) {
+                let dates = channel[key].map((item) => {
+                    return item.date;
+                });
+
+                req.body[key].forEach((item) => {
+                    if(!dates.includes(item.date)) {
+                        channel[key].push(item);
+                    }
+                })
+            }
+        }
+    }
+    
+    try {
+        await channel.save();
+    } catch(err) {
+        logger.error(`${err.stack}`, request=req, args=args);
+        res.sendStatus(400);
+        return;
+    }
+
+    try {
+        summary_json = await fs.readFile(path.join(__ROOT_DIR, config.SUMMARY_JSON), "utf-8");
+        summary_json = JSON.parse(summary_json);
+
+        let now = moment().format()
+        summary_json.channels_update_date = now;
+        await fs.writeFile(path.join(__ROOT_DIR, config.SUMMARY_JSON), JSON.stringify(summary_json, null, 4), "utf-8");
+    } catch(err) {
+        logger.error(`${err.stack}`, request=req);
+        res.sendStatus(400);
+        return;
+    }
+
+    logger.success("Success", request=req, args=args);
+    res.status(200).json(channel);
+    return;
 });
 
 module.exports = router;

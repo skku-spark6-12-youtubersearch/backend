@@ -78,4 +78,7 @@ module.exports = {
             throw err;
         }
     },
+    "recent_upload_video_num": async function(channel_num) {
+        //TODO: 작성 요망
+    }
 }

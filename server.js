@@ -26,11 +26,11 @@ mongoose.connect(`mongodb://${config.DB_HOSTNAME}:${config.DB_PORT}/${config.DB_
 
 app.use(express.urlencoded({
     extended: true,
-    limit: "100mb"
+    limit: "500mb"
 }));
 
 app.use(express.json({
-    limit: "100mb"
+    limit: "500mb"
 }));
 
 app.use(utils.request_logger(logger));
