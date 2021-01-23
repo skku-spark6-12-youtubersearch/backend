@@ -31,7 +31,8 @@ router.get("/:id", async function(req, res, next) {
             logger.success("Success", request=req, args=args);
             return res.status(200).json(qresult);
         } else {
-            throw "Empty qresult";
+            logger.error(`No such ID`, request=req, args=args);
+            return res.sendStatus(404);
         }
     } catch (err) {
         logger.error(`${err.stack}`, request=req, args=args);

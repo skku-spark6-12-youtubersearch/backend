@@ -33,6 +33,10 @@ router.post("/channels", async function(req, res, next) {
     let channels = req.body.channels;
 
     try {
+        if((await mongoose.connection.db.listCollections({name: Channel.collection.name}).toArray()).length != 0) {
+            await Channel.collection.drop();
+        }
+
         for(let channel of channels) {
             await (new Channel({
                 id: channel.id,
@@ -92,7 +96,11 @@ router.post("/channel/:id", async function(req, res, next) {
     let channel;
     try {
         channel = await Channel.findOne({ id: id }).exec();
-        if(!channel) throw new Error("No such ID");
+        if(!channel) {
+            logger.error(`No such ID`, request=req, args=args);
+            res.sendStatus(404);
+            return;
+        }
     } catch(err) {
         logger.error(`${err.stack}`, request=req, args=args);
         res.sendStatus(400);
