@@ -17,6 +17,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "moment-timezone": "^0.5.32",
-    "mongoose": "^5.11.11"
+    "mongoose": "^5.11.11",
+    "python-shell": "^2.0.3"
   }
 }

@@ -1,67 +1,902 @@
 {
-    "summary_update_date": "2021-01-22T05:43:15+09:00",
-    "channels_update_date": "2021-01-23T01:46:01+09:00",
+    "summary_update_date": "2021-01-27T21:19:20+09:00",
+    "channels_update_date": "2021-01-27T21:16:28+09:00",
     "summary_items": [
         {
             "name": "SubscriberNum",
-            "desc": "구독자 수가 가장 많은 채널",
-            "channel_num": 10,
+            "desc": "구독자 수가 가장 많은 유튜버",
+            "channel_num": 30,
             "builder_func_name": "subscriber_num",
             "channel_ids": [
-                "UCjBp_7RuDBUYbd1LegWEJ8g",
-                "UCxutPqfWSdYqaK8_tlc5PBA",
-                "UCxLOTgnqpSqQp_kMPlb7PWw",
-                "UChQ-VMvdGrYZxviQVMTJOHg",
-                "UCbFzvzDu17eDZ3RIeaLRswQ",
-                "UCg7rkxrTnIhiHEpXY1ec9NA",
-                "UC4Qw1uE9kwUI4cCAx9HZtxw",
-                "UCNzcxCN_Hh_lu5RCSFXKgGQ",
-                "UCSHVH_AWVUc-C8-D8mh8W6A",
-                "UCYooECrv-fIXlPaDwEIaveA"
+                {
+                    "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
+                    "ranking": 0
+                },
+                {
+                    "id": "UCxutPqfWSdYqaK8_tlc5PBA",
+                    "ranking": 1
+                },
+                {
+                    "id": "UCxLOTgnqpSqQp_kMPlb7PWw",
+                    "ranking": 2
+                },
+                {
+                    "id": "UChQ-VMvdGrYZxviQVMTJOHg",
+                    "ranking": 3
+                },
+                {
+                    "id": "UCbFzvzDu17eDZ3RIeaLRswQ",
+                    "ranking": 4
+                },
+                {
+                    "id": "UCg7rkxrTnIhiHEpXY1ec9NA",
+                    "ranking": 5
+                },
+                {
+                    "id": "UC4Qw1uE9kwUI4cCAx9HZtxw",
+                    "ranking": 6
+                },
+                {
+                    "id": "UCNzcxCN_Hh_lu5RCSFXKgGQ",
+                    "ranking": 7
+                },
+                {
+                    "id": "UCSHVH_AWVUc-C8-D8mh8W6A",
+                    "ranking": 8
+                },
+                {
+                    "id": "UCYooECrv-fIXlPaDwEIaveA",
+                    "ranking": 9
+                },
+                {
+                    "id": "UCta_NRwnsUaew0t3VNxBNyg",
+                    "ranking": 10
+                },
+                {
+                    "id": "UCHxKSivB6JLZ1SEMdxd1fAg",
+                    "ranking": 11
+                },
+                {
+                    "id": "UC3dt8G_iIiZXijtaaLgo1HA",
+                    "ranking": 12
+                },
+                {
+                    "id": "UCEPuItFWOOJ2o5hTu65NlEg",
+                    "ranking": 13
+                },
+                {
+                    "id": "UCpJw2H9KKqwCCGQKRh1Bf2w",
+                    "ranking": 14
+                },
+                {
+                    "id": "UCQJuZxeDv2P05YHcC-tIEVQ",
+                    "ranking": 15
+                },
+                {
+                    "id": "UCyn_E0ZE8RNOnYnF3lVaCOQ",
+                    "ranking": 16
+                },
+                {
+                    "id": "UC2NFRq9s2neD_Ml0tPhNC2Q",
+                    "ranking": 17
+                },
+                {
+                    "id": "UCUbOogiD-4PKDqaJfSOTC0g",
+                    "ranking": 18
+                },
+                {
+                    "id": "UCBkyj16n2snkRg1BAzpovXQ",
+                    "ranking": 19
+                },
+                {
+                    "id": "UC48NSSfUBsmL0k0wKxSqRkw",
+                    "ranking": 20
+                },
+                {
+                    "id": "UCR3rHpatQ69g1uiGfGp60rw",
+                    "ranking": 21
+                },
+                {
+                    "id": "UC3DYSay178fMMPaf3zHwECA",
+                    "ranking": 22
+                },
+                {
+                    "id": "UCSOeJWyByeoBHpmrm0NnlLw",
+                    "ranking": 23
+                },
+                {
+                    "id": "UCAaLhok91QDrweyuDRsmjqQ",
+                    "ranking": 24
+                },
+                {
+                    "id": "UCWCKqaOsUJ0OzjC01ATQmPA",
+                    "ranking": 25
+                },
+                {
+                    "id": "UC8CIM3d3zDYMk-3T5aAz0yw",
+                    "ranking": 26
+                },
+                {
+                    "id": "UCdvO5cIFPdFDhXDzs1WrbZw",
+                    "ranking": 27
+                },
+                {
+                    "id": "UCtCnnCUn9IDDQRU9_04JD3g",
+                    "ranking": 28
+                },
+                {
+                    "id": "UCEcuyrAqhRVUmRdOd6FGKSw",
+                    "ranking": 29
+                }
             ]
         },
         {
             "name": "VideoNum",
-            "desc": "동영상 수가 가장 많은 채널",
-            "channel_num": 10,
+            "desc": "동영상 수가 가장 많은 유튜버",
+            "channel_num": 30,
             "builder_func_name": "video_num",
             "channel_ids": [
-                "UCKDkGnyeib7mcU7LdD3x0jQ",
-                "UCVR8eG4I5Fies8NQFWF-KsA",
-                "UCAI86CUHDIkKXGA6YpVBhYg",
-                "UCQePzo3_oRB-6RAzBioc6pg",
-                "UCRZURXN2vyCYzB9eYbSKQiw",
-                "UCyHvSKT_bLDYpkv1JjjsLAg",
-                "UC-Zedn7a_RJyb5hUQ-aGZog",
-                "UCbt557PsOnMaspiSUjuSVVw",
-                "UClDbuB3bgZYVIaN3534c_ew",
-                "UCYX9IB_lU43EenSWKDlheUg"
+                {
+                    "id": "UCKDkGnyeib7mcU7LdD3x0jQ",
+                    "ranking": 0
+                },
+                {
+                    "id": "UCVR8eG4I5Fies8NQFWF-KsA",
+                    "ranking": 1
+                },
+                {
+                    "id": "UCAI86CUHDIkKXGA6YpVBhYg",
+                    "ranking": 2
+                },
+                {
+                    "id": "UCQePzo3_oRB-6RAzBioc6pg",
+                    "ranking": 3
+                },
+                {
+                    "id": "UCRZURXN2vyCYzB9eYbSKQiw",
+                    "ranking": 4
+                },
+                {
+                    "id": "UCyHvSKT_bLDYpkv1JjjsLAg",
+                    "ranking": 5
+                },
+                {
+                    "id": "UC-Zedn7a_RJyb5hUQ-aGZog",
+                    "ranking": 6
+                },
+                {
+                    "id": "UCbt557PsOnMaspiSUjuSVVw",
+                    "ranking": 7
+                },
+                {
+                    "id": "UClDbuB3bgZYVIaN3534c_ew",
+                    "ranking": 8
+                },
+                {
+                    "id": "UCYX9IB_lU43EenSWKDlheUg",
+                    "ranking": 9
+                },
+                {
+                    "id": "UCnCFD3met1Ip7OngdF9TRDg",
+                    "ranking": 10
+                },
+                {
+                    "id": "UCl402YYy7RcH7PBI3npmGPQ",
+                    "ranking": 11
+                },
+                {
+                    "id": "UCSHVH_AWVUc-C8-D8mh8W6A",
+                    "ranking": 12
+                },
+                {
+                    "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
+                    "ranking": 13
+                },
+                {
+                    "id": "UCqVkQsNin4MdGFrWvzFVOKw",
+                    "ranking": 14
+                },
+                {
+                    "id": "UCXmdpmRnf5WKMssvByY2Elg",
+                    "ranking": 15
+                },
+                {
+                    "id": "UCHsK9gl5aU0F3umrU4Zn_sA",
+                    "ranking": 16
+                },
+                {
+                    "id": "UCBkyj16n2snkRg1BAzpovXQ",
+                    "ranking": 17
+                },
+                {
+                    "id": "UCqMixH4Cc7CdySihHG4kkIA",
+                    "ranking": 18
+                },
+                {
+                    "id": "UCYooECrv-fIXlPaDwEIaveA",
+                    "ranking": 19
+                },
+                {
+                    "id": "UC1dHu9GhbHH7RcHKyJdaOvA",
+                    "ranking": 20
+                },
+                {
+                    "id": "UCHxrU6bjWrnBfmReUAeztcw",
+                    "ranking": 21
+                },
+                {
+                    "id": "UCqIwPYLfMd3EoWYwvyTjPnA",
+                    "ranking": 22
+                },
+                {
+                    "id": "UCQJuZxeDv2P05YHcC-tIEVQ",
+                    "ranking": 23
+                },
+                {
+                    "id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+                    "ranking": 24
+                },
+                {
+                    "id": "UC9vz3TBChrJmYbzUo-rqfSg",
+                    "ranking": 25
+                },
+                {
+                    "id": "UC0SsBKkmlkyNx6bo0SSAEpQ",
+                    "ranking": 26
+                },
+                {
+                    "id": "UCqgRbodod44OjLp9tqpgkPw",
+                    "ranking": 27
+                },
+                {
+                    "id": "UCEVnzHZkNMG-XFUGomZ24cg",
+                    "ranking": 28
+                },
+                {
+                    "id": "UC4TDU9SEVB0EgslnTI2O9IQ",
+                    "ranking": 29
+                }
             ]
         },
         {
             "name": "ViewNum",
-            "desc": "채널 조회수가 가장 많은 채널",
-            "channel_num": 10,
+            "desc": "채널 조회수가 가장 많은 유튜버",
+            "channel_num": 30,
             "builder_func_name": "view_num",
             "channel_ids": [
-                "UChQ-VMvdGrYZxviQVMTJOHg",
-                "UCxutPqfWSdYqaK8_tlc5PBA",
-                "UCg7rkxrTnIhiHEpXY1ec9NA",
-                "UCEPuItFWOOJ2o5hTu65NlEg",
-                "UCYooECrv-fIXlPaDwEIaveA",
-                "UCta_NRwnsUaew0t3VNxBNyg",
-                "UCSHVH_AWVUc-C8-D8mh8W6A",
-                "UCyn_E0ZE8RNOnYnF3lVaCOQ",
-                "UCQJuZxeDv2P05YHcC-tIEVQ",
-                "UCbFzvzDu17eDZ3RIeaLRswQ"
+                {
+                    "id": "UChQ-VMvdGrYZxviQVMTJOHg",
+                    "ranking": 0
+                },
+                {
+                    "id": "UCxutPqfWSdYqaK8_tlc5PBA",
+                    "ranking": 1
+                },
+                {
+                    "id": "UCg7rkxrTnIhiHEpXY1ec9NA",
+                    "ranking": 2
+                },
+                {
+                    "id": "UCEPuItFWOOJ2o5hTu65NlEg",
+                    "ranking": 3
+                },
+                {
+                    "id": "UCYooECrv-fIXlPaDwEIaveA",
+                    "ranking": 4
+                },
+                {
+                    "id": "UCta_NRwnsUaew0t3VNxBNyg",
+                    "ranking": 5
+                },
+                {
+                    "id": "UCSHVH_AWVUc-C8-D8mh8W6A",
+                    "ranking": 6
+                },
+                {
+                    "id": "UCyn_E0ZE8RNOnYnF3lVaCOQ",
+                    "ranking": 7
+                },
+                {
+                    "id": "UCQJuZxeDv2P05YHcC-tIEVQ",
+                    "ranking": 8
+                },
+                {
+                    "id": "UCbFzvzDu17eDZ3RIeaLRswQ",
+                    "ranking": 9
+                },
+                {
+                    "id": "UC7nVGqibbYgrzh733LDffNQ",
+                    "ranking": 10
+                },
+                {
+                    "id": "UCEVnzHZkNMG-XFUGomZ24cg",
+                    "ranking": 11
+                },
+                {
+                    "id": "UCSOeJWyByeoBHpmrm0NnlLw",
+                    "ranking": 12
+                },
+                {
+                    "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
+                    "ranking": 13
+                },
+                {
+                    "id": "UCEcuyrAqhRVUmRdOd6FGKSw",
+                    "ranking": 14
+                },
+                {
+                    "id": "UCNzcxCN_Hh_lu5RCSFXKgGQ",
+                    "ranking": 15
+                },
+                {
+                    "id": "UC3dt8G_iIiZXijtaaLgo1HA",
+                    "ranking": 16
+                },
+                {
+                    "id": "UCBkyj16n2snkRg1BAzpovXQ",
+                    "ranking": 17
+                },
+                {
+                    "id": "UCl4nBkmJCDs6RR8uWldAqLA",
+                    "ranking": 18
+                },
+                {
+                    "id": "UC5pbeFWTPAUdKu65kBROsBg",
+                    "ranking": 19
+                },
+                {
+                    "id": "UCHdsNK3SJi7tI85f4XPy7zA",
+                    "ranking": 20
+                },
+                {
+                    "id": "UC-Zedn7a_RJyb5hUQ-aGZog",
+                    "ranking": 21
+                },
+                {
+                    "id": "UC1q4Ihlv_YhLELw-ijE0Diw",
+                    "ranking": 22
+                },
+                {
+                    "id": "UCeG0ONJtjwE20ThR5iSYdsA",
+                    "ranking": 23
+                },
+                {
+                    "id": "UCUbOogiD-4PKDqaJfSOTC0g",
+                    "ranking": 24
+                },
+                {
+                    "id": "UCl402YYy7RcH7PBI3npmGPQ",
+                    "ranking": 25
+                },
+                {
+                    "id": "UCHsK9gl5aU0F3umrU4Zn_sA",
+                    "ranking": 26
+                },
+                {
+                    "id": "UCIchCOLwLBMD87quHlNuXjQ",
+                    "ranking": 27
+                },
+                {
+                    "id": "UCHxKSivB6JLZ1SEMdxd1fAg",
+                    "ranking": 28
+                },
+                {
+                    "id": "UCAaLhok91QDrweyuDRsmjqQ",
+                    "ranking": 29
+                }
             ]
         },
         {
             "name": "RecentUploadVideoNum",
-            "desc": "한 달 이내에 영상 업로드 수가 가장 많은 채널",
-            "channel_num": 10,
+            "desc": "최근 가장 열심히 업로드한 유튜버",
+            "channel_num": 30,
             "builder_func_name": "recent_upload_video_num",
-            "channel_ids": []
+            "channel_ids": [
+                {
+                    "id": "UCfA0tTDLNooBB0ymdoI5M7w",
+                    "ranking": 0
+                },
+                {
+                    "id": "UCl402YYy7RcH7PBI3npmGPQ",
+                    "ranking": 1
+                },
+                {
+                    "id": "UCXybGky1c_63xzXFzI0eU8A",
+                    "ranking": 2
+                },
+                {
+                    "id": "UCnCFD3met1Ip7OngdF9TRDg",
+                    "ranking": 3
+                },
+                {
+                    "id": "UCfdLDnGcRM3okEOtocWNHuQ",
+                    "ranking": 4
+                },
+                {
+                    "id": "UCqVkQsNin4MdGFrWvzFVOKw",
+                    "ranking": 5
+                },
+                {
+                    "id": "UCSHVH_AWVUc-C8-D8mh8W6A",
+                    "ranking": 6
+                },
+                {
+                    "id": "UCf8xJL-CznwfW7W2LO3y_EQ",
+                    "ranking": 7
+                },
+                {
+                    "id": "UCbt557PsOnMaspiSUjuSVVw",
+                    "ranking": 8
+                },
+                {
+                    "id": "UC-okJdotaXPlzivRzHFqzuA",
+                    "ranking": 9
+                },
+                {
+                    "id": "UCoYFo-lRD3pchMUtsBcEbOA",
+                    "ranking": 10
+                },
+                {
+                    "id": "UCQJuZxeDv2P05YHcC-tIEVQ",
+                    "ranking": 11
+                },
+                {
+                    "id": "UC5LL5w510Njr8heGeue1sEA",
+                    "ranking": 12
+                },
+                {
+                    "id": "UC1dG3vI9FfHnH3YgyeKUz_A",
+                    "ranking": 13
+                },
+                {
+                    "id": "UCl4nBkmJCDs6RR8uWldAqLA",
+                    "ranking": 14
+                },
+                {
+                    "id": "UCw1DsweY9b2AKGjV4kGJP1A",
+                    "ranking": 15
+                },
+                {
+                    "id": "UCybKp0O2N9sUZOgIm1j2r_w",
+                    "ranking": 16
+                },
+                {
+                    "id": "UC9nWnAJQDNBkJ_JlbKS-7VA",
+                    "ranking": 17
+                },
+                {
+                    "id": "UC5ScPjbt-a97AJO7SBj6nAg",
+                    "ranking": 18
+                },
+                {
+                    "id": "UCvG7coejM6UD_rOnuDdIoFw",
+                    "ranking": 19
+                },
+                {
+                    "id": "UC1FK8EsrPHHVOvrDvctqpbQ",
+                    "ranking": 20
+                },
+                {
+                    "id": "UCqMixH4Cc7CdySihHG4kkIA",
+                    "ranking": 21
+                },
+                {
+                    "id": "UCeSnJtdf_dgvFqtK1PpxygA",
+                    "ranking": 22
+                },
+                {
+                    "id": "UCKd2rI7xVJm86kav7okWC6A",
+                    "ranking": 23
+                },
+                {
+                    "id": "UC9pCNmC-Ovq2sRfHIwLDuIg",
+                    "ranking": 24
+                },
+                {
+                    "id": "UCEVnzHZkNMG-XFUGomZ24cg",
+                    "ranking": 25
+                },
+                {
+                    "id": "UCpVLAetJt6_XjktxxhDUY2w",
+                    "ranking": 26
+                },
+                {
+                    "id": "UC4TDU9SEVB0EgslnTI2O9IQ",
+                    "ranking": 27
+                },
+                {
+                    "id": "UCYooECrv-fIXlPaDwEIaveA",
+                    "ranking": 28
+                },
+                {
+                    "id": "UCilYpdgaNbW8x8_E83vomNw",
+                    "ranking": 29
+                }
+            ]
+        },
+        {
+            "name": "SubscriberPerView",
+            "desc": "구독자에 비해 조회수가 높은 유튜버",
+            "channel_num": 30,
+            "builder_func_name": "subscriber_per_view",
+            "channel_ids": [
+                {
+                    "id": "UCbiqc9mdIz3XEH6LG5nCeMg",
+                    "ranking": 0
+                },
+                {
+                    "id": "UC8C0Yd20ke5XqOiZvMVgM9w",
+                    "ranking": 1
+                },
+                {
+                    "id": "UC7nVGqibbYgrzh733LDffNQ",
+                    "ranking": 2
+                },
+                {
+                    "id": "UCuWFQc0UEyNbT8v-pX83MjQ",
+                    "ranking": 3
+                },
+                {
+                    "id": "UCEVnzHZkNMG-XFUGomZ24cg",
+                    "ranking": 4
+                },
+                {
+                    "id": "UChs3xgH4BWAsTi-SGjECiZA",
+                    "ranking": 5
+                },
+                {
+                    "id": "UC1q4Ihlv_YhLELw-ijE0Diw",
+                    "ranking": 6
+                },
+                {
+                    "id": "UCXybGky1c_63xzXFzI0eU8A",
+                    "ranking": 7
+                },
+                {
+                    "id": "UCEPuItFWOOJ2o5hTu65NlEg",
+                    "ranking": 8
+                },
+                {
+                    "id": "UC13r2XVC5h3unwWgo25puAw",
+                    "ranking": 9
+                },
+                {
+                    "id": "UCZcyI32yv57Zz0Y8-Nr1V9A",
+                    "ranking": 10
+                },
+                {
+                    "id": "UCqVkQsNin4MdGFrWvzFVOKw",
+                    "ranking": 11
+                },
+                {
+                    "id": "UCpYaDypxUY_bB6s23sfpuMg",
+                    "ranking": 12
+                },
+                {
+                    "id": "UCl402YYy7RcH7PBI3npmGPQ",
+                    "ranking": 13
+                },
+                {
+                    "id": "UCnCFD3met1Ip7OngdF9TRDg",
+                    "ranking": 14
+                },
+                {
+                    "id": "UC2uID-rcbLMi3RxZmZtwSZg",
+                    "ranking": 15
+                },
+                {
+                    "id": "UCU_hKD03cUTCvnOJpEmKvCg",
+                    "ranking": 16
+                },
+                {
+                    "id": "UCfA0tTDLNooBB0ymdoI5M7w",
+                    "ranking": 17
+                },
+                {
+                    "id": "UCVR8eG4I5Fies8NQFWF-KsA",
+                    "ranking": 18
+                },
+                {
+                    "id": "UCyn_E0ZE8RNOnYnF3lVaCOQ",
+                    "ranking": 19
+                },
+                {
+                    "id": "UCKDkGnyeib7mcU7LdD3x0jQ",
+                    "ranking": 20
+                },
+                {
+                    "id": "UCg7rkxrTnIhiHEpXY1ec9NA",
+                    "ranking": 21
+                },
+                {
+                    "id": "UCcjFBc6EZ76yJarqU1AYuhA",
+                    "ranking": 22
+                },
+                {
+                    "id": "UC0aKwoKNeqBaUwiEXmkQaGQ",
+                    "ranking": 23
+                },
+                {
+                    "id": "UChQ-VMvdGrYZxviQVMTJOHg",
+                    "ranking": 24
+                },
+                {
+                    "id": "UCqMixH4Cc7CdySihHG4kkIA",
+                    "ranking": 25
+                },
+                {
+                    "id": "UCYooECrv-fIXlPaDwEIaveA",
+                    "ranking": 26
+                },
+                {
+                    "id": "UCQJuZxeDv2P05YHcC-tIEVQ",
+                    "ranking": 27
+                },
+                {
+                    "id": "UCSOeJWyByeoBHpmrm0NnlLw",
+                    "ranking": 28
+                },
+                {
+                    "id": "UCHsK9gl5aU0F3umrU4Zn_sA",
+                    "ranking": 29
+                }
+            ]
+        },
+        {
+            "name": "LikePerView",
+            "desc": "조회수에 비해 좋아요가 많은 유튜버",
+            "channel_num": 30,
+            "builder_func_name": "like_per_view",
+            "channel_ids": [
+                {
+                    "id": "UCRmG4YBJMlBiH4rt8g2vNPw",
+                    "ranking": 0
+                },
+                {
+                    "id": "UCArr7e9zILksFPuGDq-MffA",
+                    "ranking": 1
+                },
+                {
+                    "id": "UC6g-3ON3MpaiUuxBg25CZAg",
+                    "ranking": 2
+                },
+                {
+                    "id": "UCldBBBC3KowWN7ScJRQlZyg",
+                    "ranking": 3
+                },
+                {
+                    "id": "UCrBuJMx9qmXmxvQrmeI-TPA",
+                    "ranking": 4
+                },
+                {
+                    "id": "UCjFTY4_BJ4prXVmFow9x93g",
+                    "ranking": 5
+                },
+                {
+                    "id": "UCl6gx0iQ-VvwhJu0r1FndTQ",
+                    "ranking": 6
+                },
+                {
+                    "id": "UCnPJ_Jcl-dwFuGgqhavB8oA",
+                    "ranking": 7
+                },
+                {
+                    "id": "UC0aFOAetT4Hur0qmOnmmbBA",
+                    "ranking": 8
+                },
+                {
+                    "id": "UC_qgWkLIbwXA8YGWTbjSN3g",
+                    "ranking": 9
+                },
+                {
+                    "id": "UCpDcj6E73QeFkmqk7gH5wxA",
+                    "ranking": 10
+                },
+                {
+                    "id": "UCOXPm9nqKtb2pIpO0UybBHA",
+                    "ranking": 11
+                },
+                {
+                    "id": "UClcACsSYAi97Ka_QxX72JAA",
+                    "ranking": 12
+                },
+                {
+                    "id": "UCQIx6hvYi2eurTCAum1HNyQ",
+                    "ranking": 13
+                },
+                {
+                    "id": "UCjBp_7RuDBUYbd1LegWEJ8g",
+                    "ranking": 14
+                },
+                {
+                    "id": "UCT_Sf9z6Cqy11VHOfbnQPNQ",
+                    "ranking": 15
+                },
+                {
+                    "id": "UCIwrzpUgafk5ZD14BaSVdGQ",
+                    "ranking": 16
+                },
+                {
+                    "id": "UCWL_9MaaMy8ObTDPmVHemjA",
+                    "ranking": 17
+                },
+                {
+                    "id": "UCT7njg__VOy3n-SvXemDHvg",
+                    "ranking": 18
+                },
+                {
+                    "id": "UCXrjLuKRFe1OxlR9T6uNs6w",
+                    "ranking": 19
+                },
+                {
+                    "id": "UC3DYSay178fMMPaf3zHwECA",
+                    "ranking": 20
+                },
+                {
+                    "id": "UCf8xJL-CznwfW7W2LO3y_EQ",
+                    "ranking": 21
+                },
+                {
+                    "id": "UC_ZYBT7vZOSyoyfeQraKCOw",
+                    "ranking": 22
+                },
+                {
+                    "id": "UCn_9mH91rLWez9SZ6AdjfYg",
+                    "ranking": 23
+                },
+                {
+                    "id": "UCDBg2guHN1JanH7QP7i2dQQ",
+                    "ranking": 24
+                },
+                {
+                    "id": "UCJVsjpZqtve-SZ11U8jmH_g",
+                    "ranking": 25
+                },
+                {
+                    "id": "UCPITXstDqqLYbBUiAVqYjfg",
+                    "ranking": 26
+                },
+                {
+                    "id": "UCiAK_U-vD5zcL8Bh9sberCw",
+                    "ranking": 27
+                },
+                {
+                    "id": "UCF90fBrj4HP9VpdwGiQkrmQ",
+                    "ranking": 28
+                },
+                {
+                    "id": "UCc0_4m8a-YtBHEcYwjEnbxw",
+                    "ranking": 29
+                }
+            ]
+        },
+        {
+            "name": "CommentNumMean",
+            "desc": "댓글이 많이 달리는 유튜버",
+            "channel_num": 30,
+            "builder_func_name": "comment_num_mean",
+            "channel_ids": [
+                {
+                    "id": "UChQ-VMvdGrYZxviQVMTJOHg",
+                    "ranking": 0
+                },
+                {
+                    "id": "UCv0Fm-Ge7D_zmN9Gw9x2cMA",
+                    "ranking": 1
+                },
+                {
+                    "id": "UC8CIM3d3zDYMk-3T5aAz0yw",
+                    "ranking": 2
+                },
+                {
+                    "id": "UCSGi7jxv1fqTx9hYI_lrGdg",
+                    "ranking": 3
+                },
+                {
+                    "id": "UCfSy6hLYDteGVYb5h_Z2xkQ",
+                    "ranking": 4
+                },
+                {
+                    "id": "UCpDcj6E73QeFkmqk7gH5wxA",
+                    "ranking": 5
+                },
+                {
+                    "id": "UCg7rkxrTnIhiHEpXY1ec9NA",
+                    "ranking": 6
+                },
+                {
+                    "id": "UC8DE6aei0DOKa1s3PziV8Aw",
+                    "ranking": 7
+                },
+                {
+                    "id": "UCZ0bi2aVJngKLwFTU5g_fLQ",
+                    "ranking": 8
+                },
+                {
+                    "id": "UCaaZFxjlHI3T_I-uFbldIGA",
+                    "ranking": 9
+                },
+                {
+                    "id": "UCCMQyaKDjQJY79VimTdaYYQ",
+                    "ranking": 10
+                },
+                {
+                    "id": "UCN5oT4zGJX-_H6pE5isAEeg",
+                    "ranking": 11
+                },
+                {
+                    "id": "UCbFzvzDu17eDZ3RIeaLRswQ",
+                    "ranking": 12
+                },
+                {
+                    "id": "UCb0eyf03Jz8Q5j2q65TzCoA",
+                    "ranking": 13
+                },
+                {
+                    "id": "UCZ-UuK86Bk5sGzQQ2cEglJQ",
+                    "ranking": 14
+                },
+                {
+                    "id": "UCIqg17JWrhmYT--KZbHk3HA",
+                    "ranking": 15
+                },
+                {
+                    "id": "UCSQkftbg2z4kz4NNBVs6CIQ",
+                    "ranking": 16
+                },
+                {
+                    "id": "UCn8P2mOrwb7BNMRviAFg6DQ",
+                    "ranking": 17
+                },
+                {
+                    "id": "UCDk0AHutsIFLsQYhMvmkdrQ",
+                    "ranking": 18
+                },
+                {
+                    "id": "UCWf4QKgnTyvmehcRqw-JldQ",
+                    "ranking": 19
+                },
+                {
+                    "id": "UCRpdlPk671uOMiBtf5HtB3Q",
+                    "ranking": 20
+                },
+                {
+                    "id": "UCXM-GWvgXxj8V_Q_o1B4zyQ",
+                    "ranking": 21
+                },
+                {
+                    "id": "UC5ScPjbt-a97AJO7SBj6nAg",
+                    "ranking": 22
+                },
+                {
+                    "id": "UC2NFRq9s2neD_Ml0tPhNC2Q",
+                    "ranking": 23
+                },
+                {
+                    "id": "UCnHpxlp418JpbxtVEfPRK4Q",
+                    "ranking": 24
+                },
+                {
+                    "id": "UCLtZE7A3iN-oysHf5_vJYBA",
+                    "ranking": 25
+                },
+                {
+                    "id": "UC1q4Ihlv_YhLELw-ijE0Diw",
+                    "ranking": 26
+                },
+                {
+                    "id": "UCWCKqaOsUJ0OzjC01ATQmPA",
+                    "ranking": 27
+                },
+                {
+                    "id": "UCEIzrF00OYA8B-WqAN5vUmg",
+                    "ranking": 28
+                },
+                {
+                    "id": "UCJDEss5wA1ddrCBC40giO8A",
+                    "ranking": 29
+                }
+            ]
         }
     ]
 }
