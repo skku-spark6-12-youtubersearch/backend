@@ -52,8 +52,12 @@ router.get("/", async function (req, res, next) {
       let channels = [];
       for (let qresult of qresults) {
         let qresult_rank = 0;
+        let qresult_score = 0;
         id_rank_list.forEach((id_rank) => {
-          if (id_rank.id == qresult.id) qresult_rank = id_rank.ranking;
+          if (id_rank.id == qresult.id) {
+            qresult_rank = id_rank.ranking;
+            qresult_score = id_rank.score;
+          }
         });
         let qresult_game_tag = new Set();
         qresult.videos.forEach((video) => {
@@ -62,6 +66,7 @@ router.get("/", async function (req, res, next) {
         channels.push({
           channel_id: qresult.id,
           channel_rank: qresult_rank,
+          channel_score: qresult_score,
           channel_filter: [qresult.sex, ...qresult_game_tag],
           channel_title: qresult.title,
           channel_photo: qresult.profile_img,
@@ -80,6 +85,7 @@ router.get("/", async function (req, res, next) {
       json.push({
         list_name: summary_item.name,
         list_desc: summary_item.desc,
+        list_score_desc: summary_item.score_desc,
         channels: channels,
       });
     } catch (err) {
@@ -114,6 +120,7 @@ async function buildSummary(summary_json) {
         desc: summary_item.desc,
         channel_num: summary_item.channel_num,
         builder_func_name: summary_item.builder_func_name,
+        score_desc: summary_item.score_desc,
         channel_ids: channel_ids,
       });
     }

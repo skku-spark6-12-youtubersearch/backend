@@ -148,6 +148,7 @@ router.post("/channel/:id", async function (req, res, next) {
       "default_language",
       "published_date",
       "view_num",
+      "youreco_tags",
     ];
 
     for (let key of keys) {

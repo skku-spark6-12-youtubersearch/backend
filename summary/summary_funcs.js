@@ -32,7 +32,7 @@ module.exports = {
       });
 
       return result.slice(0, channel_num).map((item, idx) => {
-        return { id: item.id, ranking: idx };
+        return { id: item.id, ranking: idx, score: item.subscriber_num.value };
       });
     } catch (err) {
       throw err;
@@ -61,7 +61,7 @@ module.exports = {
       });
 
       return result.slice(0, channel_num).map((item, idx) => {
-        return { id: item.id, ranking: idx };
+        return { id: item.id, ranking: idx, score: item.video_num.value };
       });
     } catch (err) {
       throw err;
@@ -90,7 +90,7 @@ module.exports = {
       });
 
       return result.slice(0, channel_num).map((item, idx) => {
-        return { id: item.id, ranking: idx };
+        return { id: item.id, ranking: idx, score: item.view_num.value };
       });
     } catch (err) {
       throw err;
@@ -122,7 +122,7 @@ module.exports = {
       });
 
       return result.slice(0, channel_num).map((item, idx) => {
-        return { id: item.id, ranking: idx };
+        return { id: item.id, ranking: idx, score: item.recent_video_num };
       });
     } catch (err) {
       throw err;
@@ -167,7 +167,7 @@ module.exports = {
       });
 
       return result.slice(0, channel_num).map((item, idx) => {
-        return { id: item.id, ranking: idx };
+        return { id: item.id, ranking: idx, score: item.rating.toFixed(2) };
       });
     } catch (err) {
       throw err;
@@ -220,7 +220,7 @@ module.exports = {
       });
 
       return result.slice(0, channel_num).map((item, idx) => {
-        return { id: item.id, ranking: idx };
+        return { id: item.id, ranking: idx, score: item.rating.toFixed(2) };
       });
     } catch (err) {
       throw err;
@@ -273,7 +273,7 @@ module.exports = {
       });
 
       return result.slice(0, channel_num).map((item, idx) => {
-        return { id: item.id, ranking: idx };
+        return { id: item.id, ranking: idx, score: item.rating.toFixed(2) };
       });
     } catch (err) {
       throw err;
@@ -319,7 +319,123 @@ module.exports = {
       });
 
       return result.slice(0, channel_num).map((item, idx) => {
-        return { id: item.id, ranking: idx };
+        return { id: item.id, ranking: idx, score: item.rating.toFixed(2) };
+      });
+    } catch (err) {
+      throw err;
+    }
+  },
+  top_ability: async function (channel_num) {
+    try {
+      let channels = await Channel.find().exec();
+
+      let result = channels.map((channel) => {
+        let ability_score = 0;
+        for (tag of channel.youreco_tags) {
+          if (tag.tag == "ability") ability_score = tag.value * 100;
+        }
+
+        return {
+          id: channel.id,
+          rating: ability_score,
+        };
+      });
+
+      result.sort((a, b) => {
+        return b.rating - a.rating;
+      });
+
+      return result.slice(0, channel_num).map((item, idx) => {
+        return { id: item.id, ranking: idx, score: item.rating.toFixed(2) };
+      });
+    } catch (err) {
+      throw err;
+    }
+  },
+  top_clean: async function (channel_num) {
+    try {
+      let channels = await Channel.find().exec();
+
+      let result = channels.map((channel) => {
+        let clean_score = 0;
+        for (tag of channel.youreco_tags) {
+          if (tag.tag == "clean") clean_score = tag.value * 100;
+        }
+
+        return {
+          id: channel.id,
+          rating: clean_score,
+        };
+      });
+
+      result.sort((a, b) => {
+        return b.rating - a.rating;
+      });
+
+      return result.slice(0, channel_num).map((item, idx) => {
+        return { id: item.id, ranking: idx, score: item.rating.toFixed(2) };
+      });
+    } catch (err) {
+      throw err;
+    }
+  },
+  ability_master: async function (channel_num) {
+    try {
+      let channels = await Channel.find().exec();
+
+      let result = channels
+        .filter((channel) => {
+          for (tag of channel.youreco_tags) {
+            if (tag.tag == "master") {
+              if (tag.value < 2) return false;
+            }
+          }
+          return true;
+        })
+        .map((channel) => {
+          return {
+            id: channel.id,
+            rating: 1,
+          };
+        });
+
+      result.sort((a, b) => {
+        return b.rating - a.rating;
+      });
+
+      return result.slice(0, channel_num).map((item, idx) => {
+        return { id: item.id, ranking: idx, score: item.rating.toFixed(2) };
+      });
+    } catch (err) {
+      throw err;
+    }
+  },
+  ability_lecture: async function (channel_num) {
+    try {
+      let channels = await Channel.find().exec();
+
+      let result = channels
+        .filter((channel) => {
+          for (tag of channel.youreco_tags) {
+            if (tag.tag == "lecture") {
+              if (tag.value < 2) return false;
+            }
+          }
+          return true;
+        })
+        .map((channel) => {
+          return {
+            id: channel.id,
+            rating: 1,
+          };
+        });
+
+      result.sort((a, b) => {
+        return b.rating - a.rating;
+      });
+
+      return result.slice(0, channel_num).map((item, idx) => {
+        return { id: item.id, ranking: idx, score: item.rating.toFixed(2) };
       });
     } catch (err) {
       throw err;

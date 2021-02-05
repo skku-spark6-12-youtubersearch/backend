@@ -17,6 +17,11 @@ const commentSchema = new Schema({
   like_num: Number,
 });
 
+const yourecoTagSchema = new Schema({
+  tag: String,
+  value: Number,
+});
+
 const videoSchema = new Schema({
   id: { type: String, index: true },
   title: String,
@@ -54,6 +59,7 @@ const channelSchema = new Schema({
   default_language: String,
   published_date: Date,
   view_num: [valueHistorySchema],
+  youreco_tags: [yourecoTagSchema],
 });
 
 module.exports = mongoose.model("channel", channelSchema);
