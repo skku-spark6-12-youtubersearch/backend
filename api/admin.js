@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
+const mongoose = require("mongoose");
+
 const fs = require("fs").promises;
 const path = require("path");
 
@@ -15,6 +17,8 @@ const config = require(path.join(__ROOT_DIR, "config"));
 const secret = require(path.join(__ROOT_DIR, "secret"));
 
 const Channel = require(path.join(__ROOT_DIR, "models/channel"));
+
+const Tag = require(path.join(__ROOT_DIR, "models/tag"));
 
 // Authorization
 router.use(function (req, res, next) {
@@ -268,6 +272,47 @@ router.post("/channel/:id", async function (req, res, next) {
 
   logger.success("Success", (request = req), (args = args));
   res.status(200).json(channel);
+  return;
+});
+
+// DB(Tags) 추가
+
+router.post("/tags", async function (req, res, next) {
+  let channels = req.body.tags;
+
+  try {
+    if (
+      (
+        await mongoose.connection.db
+          .listCollections({ name: Tag.collection.name })
+          .toArray()
+      ).length != 0
+    ) {
+      await Tag.collection.drop();
+    }
+
+    for (let channel of channels) {
+      await new Tag({
+        id: channel.id,
+        title: channel.title,
+        youreco_tags: channel.youreco_tags,
+        namu_tags: channel.namu_tags,
+        game_tags: channel.game_tags,
+        video_tags: channel.video_tags,
+        comment_tags: channel.comment_tags,
+        youtuber_tags: channel.youtuber_tags,
+        sex: channel.sex,
+        live_platform: channel.live_platform,
+      }).save();
+    }
+  } catch (err) {
+    logger.error(`${err.stack}`, (request = req));
+    res.sendStatus(400);
+    return;
+  }
+
+  logger.success("Success", (request = req));
+  res.sendStatus(200);
   return;
 });
 
