@@ -70,6 +70,7 @@ router.get("/", async function (req, res, next) {
           channel_filter: [qresult.sex, ...qresult_game_tag],
           channel_title: qresult.title,
           channel_photo: qresult.profile_img,
+          channel_banner: qresult.banner_img,
           subscriber_num: qresult.subscriber_num.sort((a, b) => {
             return new Date(b.date) - new Date(a.date);
           })[0],

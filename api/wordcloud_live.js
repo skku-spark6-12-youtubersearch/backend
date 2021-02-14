@@ -11,10 +11,11 @@ const config = require(path.join(__ROOT_DIR, "config"));
 
 const mongoose = require("mongoose");
 const Channel = require(path.join(__ROOT_DIR, "models/channel"));
-const Tag = require(path.join(__ROOT_DIR, "models/tag"));
 
 const moment = require("moment-timezone");
 moment.tz.setDefault("Asia/Seoul");
+
+const PythonShell = require("python-shell");
 
 router.get("/:id", async function (req, res, next) {
   let args = {
@@ -24,16 +25,43 @@ router.get("/:id", async function (req, res, next) {
   let id = req.params.id;
 
   try {
-    let qresult = await Tag.findOne({
+    let qresult = await Channel.findOne({
       id: id,
     }).exec();
 
     if (qresult) {
-      let result_words = qresult;
-      // console.log(result_words);
+      const options = {
+        mode: "text",
+        pythonPath: "",
+        pythonOptions: ["-u"],
 
-      logger.success("Success", (request = req), (args = args));
-      return res.status(200).json(result_words);
+        scriptPath: "/home/user1/server/spark6-12/backend/Engine/",
+
+        args: [qresult.namuwikis[0].content],
+      };
+
+      let result_words = null;
+
+      PythonShell.PythonShell.run(
+        "createWordcloud.py",
+        options,
+        function (err, results) {
+          if (err) throw err;
+
+          result_words = JSON.parse(results[0]);
+          console.log(result_words);
+          logger.success("Success", (request = req), (args = args));
+          return res.status(200).json(result_words);
+        }
+      );
+
+      const test_word = {
+        text: "adlkfjdlkf",
+        value: 14,
+      };
+
+      // logger.success("Success", (request = req), (args = args));
+      // return res.status(200).json(result_words);
     } else {
       logger.error(`No such ID`, (request = req), (args = args));
       return res.sendStatus(404);

@@ -4,7 +4,7 @@
     "summary_items": [
         {
             "name": "SubscriberNum",
-            "desc": "구독자 수가 가장 많은 유튜버",
+            "desc": "아직도 구독 안하셨어요?",
             "channel_num": 30,
             "builder_func_name": "subscriber_num",
             "score_desc": "구독자수",
@@ -163,7 +163,7 @@
         },
         {
             "name": "VideoNum",
-            "desc": "동영상 수가 가장 많은 유튜버",
+            "desc": "평생 봐도 다 못 볼 걸?",
             "channel_num": 30,
             "builder_func_name": "video_num",
             "score_desc": "업로드한 모든 동영상 개수",
@@ -322,7 +322,7 @@
         },
         {
             "name": "ViewNum",
-            "desc": "채널 조회수가 가장 많은 유튜버",
+            "desc": "조회수가 증명하는 클라스",
             "channel_num": 30,
             "builder_func_name": "view_num",
             "score_desc": "총 채널 조회수",
@@ -481,7 +481,7 @@
         },
         {
             "name": "RecentUploadVideoNum",
-            "desc": "최근 가장 열심히 업로드한 유튜버",
+            "desc": "최근 한달간 최고 허슬러",
             "channel_num": 30,
             "builder_func_name": "recent_upload_video_num",
             "score_desc": "최근 한달간 업로드한 동영상 개수",
@@ -640,10 +640,10 @@
         },
         {
             "name": "SubscriberPerView",
-            "desc": "구독자에 비해 조회수가 높은 유튜버",
+            "desc": "생각보다 더 유명한 유튜버들",
             "channel_num": 30,
             "builder_func_name": "subscriber_per_view",
-            "score_desc": "채널 총 조회수 / 구독자수",
+            "score_desc": "구독자 대비 채널 총 조회수",
             "channel_ids": [
                 {
                     "id": "UCbiqc9mdIz3XEH6LG5nCeMg",
@@ -799,10 +799,10 @@
         },
         {
             "name": "LikePerView",
-            "desc": "조회수에 비해 좋아요가 많은 유튜버",
+            "desc": "왜 이렇게 날 좋아하는거야?",
             "channel_num": 30,
             "builder_func_name": "like_per_view",
-            "score_desc": "영상별 (좋아요/조회수)의 평균",
+            "score_desc": "조회수 대비 '좋아요' 비율",
             "channel_ids": [
                 {
                     "id": "UCRmG4YBJMlBiH4rt8g2vNPw",
@@ -958,7 +958,7 @@
         },
         {
             "name": "CommentNumMean",
-            "desc": "댓글이 많이 달리는 유튜버",
+            "desc": "수다쟁이 시청자들, 여기 다 모였네",
             "channel_num": 30,
             "builder_func_name": "comment_num_mean",
             "score_desc": "영상 당 댓글 평균",
@@ -1117,10 +1117,10 @@
         },
         {
             "name": "TopAbility",
-            "desc": "게임 실력이 우수한 유튜버",
+            "desc": "난 나보다 못하는 유튜버는 안 봐",
             "channel_num": 30,
             "builder_func_name": "top_ability",
-            "score_desc": "AI가 계산한 실력 보증 점수",
+            "score_desc": "자체 AI가 선정한 실력파 게임 유튜버",
             "channel_ids": [
                 {
                     "id": "UCgzC7SsCYSfGrVWoHQS5W8A",
@@ -1276,10 +1276,10 @@
         },
         {
             "name": "TopClean",
-            "desc": "클린 방송을 추구하는 유튜버",
+            "desc": "고운 말! 건강한 멘탈! 클린 유튜버",
             "channel_num": 30,
             "builder_func_name": "top_clean",
-            "score_desc": "AI가 계산한 클린함 보증 점수",
+            "score_desc": "자체 AI가 선정한 클린 유튜버",
             "channel_ids": [
                 {
                     "id": "UCxutPqfWSdYqaK8_tlc5PBA",
@@ -1438,7 +1438,7 @@
             "desc": "장인 이라고 불리는 유튜버",
             "channel_num": 30,
             "builder_func_name": "ability_master",
-            "score_desc": "위 유튜버들은 확실히 장인임을 보증합니다.",
+            "score_desc": "자체 AI가 선정한 '장인' 유튜버",
             "channel_ids": [
                 {
                     "id": "UCnDcpS7XLQ9KFPqULb9TH8g",
@@ -1594,10 +1594,10 @@
         },
         {
             "name": "AbilityLecture",
-            "desc": "게임 강의를 해주는 유튜버",
+            "desc": "게임 잘해지고 싶으면 드루와",
             "channel_num": 30,
             "builder_func_name": "ability_lecture",
-            "score_desc": "위 유튜버들은 훌륭한 게임 선생님입니다.",
+            "score_desc": "자체 AI 선정 강의 컨텐츠 보유 유튜버",
             "channel_ids": [
                 {
                     "id": "UCcc3YwvoDF3LqfGZPZmCyhg",
