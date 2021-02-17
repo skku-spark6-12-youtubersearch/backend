@@ -47,7 +47,10 @@ app.use(utils.request_logger(logger));
 
 // CORS
 app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", `${secret.FRONTEND_IP}`); // Frontend 주소에 맞게 수정 필요
+  if (secret.FRONTEND_IP.includes(req.header.origin)) {
+    res.header("Access-Control-Allow-Origin", req.header.origin);
+  }
+  //res.header("Access-Control-Allow-Origin", `${secret.FRONTEND_IP}`); // Frontend 주소에 맞게 수정 필요
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, X-Access-Token"
@@ -60,6 +63,7 @@ app.use("/admin", require(path.join(__ROOT_DIR, "api/admin")));
 app.use("/summary", require(path.join(__ROOT_DIR, "api/summary")));
 app.use("/channel", require(path.join(__ROOT_DIR, "api/channel")));
 app.use("/wordcloud", require(path.join(__ROOT_DIR, "api/wordcloud")));
+app.use("/search", require(path.join(__ROOT_DIR, "api/search")));
 
 app.listen(9000, "0.0.0.0", () => {
   logger.info("Listening at http://0.0.0.0:9000");
