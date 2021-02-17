@@ -47,10 +47,13 @@ app.use(utils.request_logger(logger));
 
 // CORS
 app.use(function (req, res, next) {
-  if (secret.FRONTEND_IP.includes(req.header.origin)) {
-    res.header("Access-Control-Allow-Origin", req.header.origin);
+  //console.log(req.header('origin'));
+	let origin = req.header('origin');
+  if (secret.FRONTEND_IP.includes(origin)) {
+    res.header("Access-Control-Allow-Origin", origin);
   }
-  //res.header("Access-Control-Allow-Origin", `${secret.FRONTEND_IP}`); // Frontend 주소에 맞게 수정 필요
+  //res.header("Access-Control-Allow-Origin", `${secret.FRONTEND_IP[0]}`); // Frontend 주소에 맞게 수정 필요
+	//res.header("Access-Contrall-Allow-Origin", `${secret.FRONTEND_IP[1]}`);
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, X-Access-Token"
