@@ -23,16 +23,17 @@ const Tag = require(path.join(__ROOT_DIR, "models/tag"));
 // Authorization
 router.use(function (req, res, next) {
   if (req.method == "OPTIONS" || req.method == "options") next();
+  else {
+    let token = req.header("x-access-token");
 
-  let token = req.header("x-access-token");
+    if (token != secret.ADMIN_TOKEN) {
+      logger.error("Invalid token", (request = req), (args = { token: token }));
+      res.sendStatus(401);
+      return;
+    }
 
-  if (token != secret.ADMIN_TOKEN) {
-    logger.error("Invalid token", (request = req), (args = { token: token }));
-    res.sendStatus(401);
-    return;
+    next();
   }
-
-  next();
 });
 
 router.post("/channels", async function (req, res, next) {
@@ -316,4 +317,56 @@ router.post("/tags", async function (req, res, next) {
   return;
 });
 
+router.post("/tags/:id", async function (req, res, next) {
+  let args = {
+    id: req.params.id,
+  };
+
+  let id = req.params.id;
+
+  let channel;
+  try {
+    channel = await Tag.findOne({ id: id }).exec();
+    if (!channel) {
+      logger.error(`No such ID`, (request = req), (args = args));
+      res.sendStatus(404);
+      return;
+    }
+  } catch (err) {
+    logger.error(`${err.stack}`, (request = req), (args = args));
+    res.sendStatus(400);
+    return;
+  }
+
+  let keys = [
+    "sex",
+    "live_platform",
+    "categories",
+    "youreco_tags",
+    "youtuber_tags",
+    "namu_tags",
+    "game_tags",
+    "video_tags",
+    "comment_tags",
+  ];
+
+  for (let key of keys) {
+    if (req.body[key]) {
+      channel[key] = req.body[key];
+      console.log("key check");
+    }
+  }
+
+  try {
+    await channel.save();
+  } catch (err) {
+    logger.error(`${err.stack}`, (request = req), (args = args));
+    res.sendStatus(400);
+    return;
+  }
+
+  logger.success("Success", (request = req), (args = args));
+  res.status(200).json(channel);
+  return;
+});
 module.exports = router;
