@@ -105,7 +105,7 @@ module.exports = {
         channel.videos.forEach((video) => {
           if (
             video.published_date.getTime() >
-            new Date().getTime() - 2629800000
+            new Date().getTime() - 5000000000
           ) {
             month_video_num += 1;
           }

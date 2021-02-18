@@ -1,11 +1,11 @@
 {
-    "summary_update_date": "2021-01-28T21:45:39+09:00",
+    "summary_update_date": "2021-02-18T22:51:49+09:00",
     "channels_update_date": "2021-01-28T20:42:34+09:00",
     "summary_items": [
         {
             "name": "SubscriberNum",
             "desc": "아직도 구독 안하셨어요?",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "subscriber_num",
             "score_desc": "구독자수",
             "channel_ids": [
@@ -158,13 +158,363 @@
                     "id": "UCEcuyrAqhRVUmRdOd6FGKSw",
                     "ranking": 29,
                     "score": 980000
+                },
+                {
+                    "id": "UCc0_4m8a-YtBHEcYwjEnbxw",
+                    "ranking": 30,
+                    "score": 960000
+                },
+                {
+                    "id": "UC5pbeFWTPAUdKu65kBROsBg",
+                    "ranking": 31,
+                    "score": 956000
+                },
+                {
+                    "id": "UCl4nBkmJCDs6RR8uWldAqLA",
+                    "ranking": 32,
+                    "score": 955000
+                },
+                {
+                    "id": "UCHdsNK3SJi7tI85f4XPy7zA",
+                    "ranking": 33,
+                    "score": 947000
+                },
+                {
+                    "id": "UC7uKMg7lPdCp4Nm1tLesihQ",
+                    "ranking": 34,
+                    "score": 946000
+                },
+                {
+                    "id": "UCN5oT4zGJX-_H6pE5isAEeg",
+                    "ranking": 35,
+                    "score": 906000
+                },
+                {
+                    "id": "UCZcD2iYy55-SkEbv3tcMZrg",
+                    "ranking": 36,
+                    "score": 882000
+                },
+                {
+                    "id": "UCIchCOLwLBMD87quHlNuXjQ",
+                    "ranking": 37,
+                    "score": 868000
+                },
+                {
+                    "id": "UC-Zedn7a_RJyb5hUQ-aGZog",
+                    "ranking": 38,
+                    "score": 860000
+                },
+                {
+                    "id": "UCeG0ONJtjwE20ThR5iSYdsA",
+                    "ranking": 39,
+                    "score": 849000
+                },
+                {
+                    "id": "UCHCkaI_DQoU7Tgg4CsBN5Bw",
+                    "ranking": 40,
+                    "score": 842000
+                },
+                {
+                    "id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+                    "ranking": 41,
+                    "score": 832000
+                },
+                {
+                    "id": "UC62pL2GZUeMx-gSzQmnB6gw",
+                    "ranking": 42,
+                    "score": 821000
+                },
+                {
+                    "id": "UCDBAVzfX3yZ1hah0FHnOoaA",
+                    "ranking": 43,
+                    "score": 801000
+                },
+                {
+                    "id": "UCRpdlPk671uOMiBtf5HtB3Q",
+                    "ranking": 44,
+                    "score": 787000
+                },
+                {
+                    "id": "UC31ypOxFsuU3Q0OFpQzcQ3g",
+                    "ranking": 45,
+                    "score": 772000
+                },
+                {
+                    "id": "UCEVnzHZkNMG-XFUGomZ24cg",
+                    "ranking": 46,
+                    "score": 756000
+                },
+                {
+                    "id": "UCPI40-XQA9-GBGj2k8PPqfg",
+                    "ranking": 47,
+                    "score": 753000
+                },
+                {
+                    "id": "UCgzC7SsCYSfGrVWoHQS5W8A",
+                    "ranking": 48,
+                    "score": 740000
+                },
+                {
+                    "id": "UCt1dxdedblLX2PsSFFK0Hzw",
+                    "ranking": 49,
+                    "score": 740000
+                },
+                {
+                    "id": "UCJprx3bX49vNl6Bcw01Cwfg",
+                    "ranking": 50,
+                    "score": 717000
+                },
+                {
+                    "id": "UCeivPjjK9-cdj8-gw4-7JRg",
+                    "ranking": 51,
+                    "score": 712000
+                },
+                {
+                    "id": "UCIVFv8AiQLqM9oLHTixrNYw",
+                    "ranking": 52,
+                    "score": 676000
+                },
+                {
+                    "id": "UC7nVGqibbYgrzh733LDffNQ",
+                    "ranking": 53,
+                    "score": 668000
+                },
+                {
+                    "id": "UCidO_j4TWaTvUiid2WffuqA",
+                    "ranking": 54,
+                    "score": 664000
+                },
+                {
+                    "id": "UCLuDznROytXtnMSDwo5aGJQ",
+                    "ranking": 55,
+                    "score": 656000
+                },
+                {
+                    "id": "UCsR07Y3qMhf_oKxit4xLoHg",
+                    "ranking": 56,
+                    "score": 641000
+                },
+                {
+                    "id": "UC1dG3vI9FfHnH3YgyeKUz_A",
+                    "ranking": 57,
+                    "score": 638000
+                },
+                {
+                    "id": "UCxeWKVovE_mKNRCwAlpL87A",
+                    "ranking": 58,
+                    "score": 629000
+                },
+                {
+                    "id": "UCLJs55bZWMsCBPekt3vssoQ",
+                    "ranking": 59,
+                    "score": 628000
+                },
+                {
+                    "id": "UCdmPH-DTjL52x5K3lRvHYQw",
+                    "ranking": 60,
+                    "score": 628000
+                },
+                {
+                    "id": "UCMOOio1GZ50OeJT58DGBQCA",
+                    "ranking": 61,
+                    "score": 626000
+                },
+                {
+                    "id": "UCHsK9gl5aU0F3umrU4Zn_sA",
+                    "ranking": 62,
+                    "score": 621000
+                },
+                {
+                    "id": "UCw-JzmPsjRcbzJLncr4pIIA",
+                    "ranking": 63,
+                    "score": 621000
+                },
+                {
+                    "id": "UCiwOunGuqfKjcLIBsteAAJQ",
+                    "ranking": 64,
+                    "score": 620000
+                },
+                {
+                    "id": "UCSQkftbg2z4kz4NNBVs6CIQ",
+                    "ranking": 65,
+                    "score": 612000
+                },
+                {
+                    "id": "UCn_9mH91rLWez9SZ6AdjfYg",
+                    "ranking": 66,
+                    "score": 609000
+                },
+                {
+                    "id": "UCJDEss5wA1ddrCBC40giO8A",
+                    "ranking": 67,
+                    "score": 599000
+                },
+                {
+                    "id": "UCylzl5EMsHKCMeUe2TLKLKA",
+                    "ranking": 68,
+                    "score": 598000
+                },
+                {
+                    "id": "UCWL_9MaaMy8ObTDPmVHemjA",
+                    "ranking": 69,
+                    "score": 597000
+                },
+                {
+                    "id": "UCt15X5eHLwyP8PpNtQTkuDQ",
+                    "ranking": 70,
+                    "score": 597000
+                },
+                {
+                    "id": "UCw1DsweY9b2AKGjV4kGJP1A",
+                    "ranking": 71,
+                    "score": 593000
+                },
+                {
+                    "id": "UCoHsxU1eDWHom6D7Fce6kLA",
+                    "ranking": 72,
+                    "score": 582000
+                },
+                {
+                    "id": "UCZ0bi2aVJngKLwFTU5g_fLQ",
+                    "ranking": 73,
+                    "score": 570000
+                },
+                {
+                    "id": "UCAJAJ9bAvfjFLRrsqeumJIA",
+                    "ranking": 74,
+                    "score": 565000
+                },
+                {
+                    "id": "UCgjaQlejpAnIu0q-xtVfTEw",
+                    "ranking": 75,
+                    "score": 562000
+                },
+                {
+                    "id": "UCnMBn-PNx1M9TLF0s-sEDeQ",
+                    "ranking": 76,
+                    "score": 554000
+                },
+                {
+                    "id": "UCSzHok6X5qXEO7cjvVnE62g",
+                    "ranking": 77,
+                    "score": 544000
+                },
+                {
+                    "id": "UCnQRkIhRmXrxGrK4-8n-lVw",
+                    "ranking": 78,
+                    "score": 535000
+                },
+                {
+                    "id": "UCL_IvtOZo6sONpiydbzzHpA",
+                    "ranking": 79,
+                    "score": 534000
+                },
+                {
+                    "id": "UCXZaTqDKXHmNfKZ1ywhxe0w",
+                    "ranking": 80,
+                    "score": 532000
+                },
+                {
+                    "id": "UCKDkGnyeib7mcU7LdD3x0jQ",
+                    "ranking": 81,
+                    "score": 528000
+                },
+                {
+                    "id": "UCb5NLtXAsTBrmaZVhyFa-Wg",
+                    "ranking": 82,
+                    "score": 523000
+                },
+                {
+                    "id": "UCugNO83_V7xZLzCsjpABGeg",
+                    "ranking": 83,
+                    "score": 521000
+                },
+                {
+                    "id": "UCbLispC1ydHSC_69kjZI6hw",
+                    "ranking": 84,
+                    "score": 515000
+                },
+                {
+                    "id": "UCAJ-meoCh1TrPZ7La3UpPrw",
+                    "ranking": 85,
+                    "score": 502000
+                },
+                {
+                    "id": "UCZ-UuK86Bk5sGzQQ2cEglJQ",
+                    "ranking": 86,
+                    "score": 502000
+                },
+                {
+                    "id": "UCHsNxA14lzqnrm0mW7GQIXA",
+                    "ranking": 87,
+                    "score": 499000
+                },
+                {
+                    "id": "UCldBBBC3KowWN7ScJRQlZyg",
+                    "ranking": 88,
+                    "score": 498000
+                },
+                {
+                    "id": "UCzoP3s16B9hP7f_qIc6DReQ",
+                    "ranking": 89,
+                    "score": 492000
+                },
+                {
+                    "id": "UCl402YYy7RcH7PBI3npmGPQ",
+                    "ranking": 90,
+                    "score": 490000
+                },
+                {
+                    "id": "UCDrAR1OWC2MD4s0JLetN0MA",
+                    "ranking": 91,
+                    "score": 489000
+                },
+                {
+                    "id": "UCdkCeGJ9G9Y5N0SReSPo5Tw",
+                    "ranking": 92,
+                    "score": 481000
+                },
+                {
+                    "id": "UCzPLwuw2vJgxtEQk2nM4TVg",
+                    "ranking": 93,
+                    "score": 480000
+                },
+                {
+                    "id": "UCa-IaOPw5r1oQ4vuf3QjEPA",
+                    "ranking": 94,
+                    "score": 475000
+                },
+                {
+                    "id": "UC1MO5uem_t8lRgvIBF9u83w",
+                    "ranking": 95,
+                    "score": 475000
+                },
+                {
+                    "id": "UC65ZDJCYI1dwzj48XIeuOBA",
+                    "ranking": 96,
+                    "score": 473000
+                },
+                {
+                    "id": "UCBvkQFBskQR9NeOoDYR8ckA",
+                    "ranking": 97,
+                    "score": 473000
+                },
+                {
+                    "id": "UCVZI7eLie2UlZph6aiBRNrw",
+                    "ranking": 98,
+                    "score": 470000
+                },
+                {
+                    "id": "UC1q4Ihlv_YhLELw-ijE0Diw",
+                    "ranking": 99,
+                    "score": 467000
                 }
             ]
         },
         {
             "name": "VideoNum",
             "desc": "평생 봐도 다 못 볼 걸?",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "video_num",
             "score_desc": "업로드한 모든 동영상 개수",
             "channel_ids": [
@@ -317,13 +667,363 @@
                     "id": "UC4TDU9SEVB0EgslnTI2O9IQ",
                     "ranking": 29,
                     "score": 5015
+                },
+                {
+                    "id": "UCBTsPtRCh6ln3IRQFjhjh1A",
+                    "ranking": 30,
+                    "score": 4811
+                },
+                {
+                    "id": "UC4gnNZCL8d6Eq2lLNqk5aSg",
+                    "ranking": 31,
+                    "score": 4667
+                },
+                {
+                    "id": "UCXybGky1c_63xzXFzI0eU8A",
+                    "ranking": 32,
+                    "score": 4640
+                },
+                {
+                    "id": "UCbErjjRiLboO1q0ha-R0OGA",
+                    "ranking": 33,
+                    "score": 4633
+                },
+                {
+                    "id": "UCVJT18d9wSCnDUdnJ9ycO7Q",
+                    "ranking": 34,
+                    "score": 4613
+                },
+                {
+                    "id": "UCN5oT4zGJX-_H6pE5isAEeg",
+                    "ranking": 35,
+                    "score": 4610
+                },
+                {
+                    "id": "UCmOmhm_p0UEwcPkAmotX8RQ",
+                    "ranking": 36,
+                    "score": 4527
+                },
+                {
+                    "id": "UCbFzvzDu17eDZ3RIeaLRswQ",
+                    "ranking": 37,
+                    "score": 4379
+                },
+                {
+                    "id": "UC1MO5uem_t8lRgvIBF9u83w",
+                    "ranking": 38,
+                    "score": 4223
+                },
+                {
+                    "id": "UCOp9K7CjksKsve6CkNPzUWg",
+                    "ranking": 39,
+                    "score": 4161
+                },
+                {
+                    "id": "UCfA0tTDLNooBB0ymdoI5M7w",
+                    "ranking": 40,
+                    "score": 4064
+                },
+                {
+                    "id": "UC0hI0RUHrjCCskDMnMBnzFQ",
+                    "ranking": 41,
+                    "score": 3944
+                },
+                {
+                    "id": "UC0aKwoKNeqBaUwiEXmkQaGQ",
+                    "ranking": 42,
+                    "score": 3915
+                },
+                {
+                    "id": "UCz1lALRICSdUzHRjJVVo9NQ",
+                    "ranking": 43,
+                    "score": 3897
+                },
+                {
+                    "id": "UC13r2XVC5h3unwWgo25puAw",
+                    "ranking": 44,
+                    "score": 3884
+                },
+                {
+                    "id": "UCQfISxq5legTqOt1h1us6lg",
+                    "ranking": 45,
+                    "score": 3852
+                },
+                {
+                    "id": "UCXOLqHsi_mxJdTIqU7B6OmQ",
+                    "ranking": 46,
+                    "score": 3849
+                },
+                {
+                    "id": "UCcL8PoeJCC6DwAcKyzw_eQg",
+                    "ranking": 47,
+                    "score": 3797
+                },
+                {
+                    "id": "UCRY0vKmqFmQ4XCJomWMBf-w",
+                    "ranking": 48,
+                    "score": 3764
+                },
+                {
+                    "id": "UCUR5w0E-jQTOO8Q0FZ4ilYQ",
+                    "ranking": 49,
+                    "score": 3749
+                },
+                {
+                    "id": "UCwGeidQWKEMdFIujQrz37qw",
+                    "ranking": 50,
+                    "score": 3740
+                },
+                {
+                    "id": "UCZcyI32yv57Zz0Y8-Nr1V9A",
+                    "ranking": 51,
+                    "score": 3733
+                },
+                {
+                    "id": "UC2_VPutZK0o_tG8ca_QrQRA",
+                    "ranking": 52,
+                    "score": 3706
+                },
+                {
+                    "id": "UC7uKMg7lPdCp4Nm1tLesihQ",
+                    "ranking": 53,
+                    "score": 3563
+                },
+                {
+                    "id": "UCuWFQc0UEyNbT8v-pX83MjQ",
+                    "ranking": 54,
+                    "score": 3531
+                },
+                {
+                    "id": "UCIchCOLwLBMD87quHlNuXjQ",
+                    "ranking": 55,
+                    "score": 3529
+                },
+                {
+                    "id": "UCcdlIcleb4oIK6of1ugSJ7w",
+                    "ranking": 56,
+                    "score": 3487
+                },
+                {
+                    "id": "UC-okJdotaXPlzivRzHFqzuA",
+                    "ranking": 57,
+                    "score": 3485
+                },
+                {
+                    "id": "UCYG8tuvbQzWsDeoADyJFU8Q",
+                    "ranking": 58,
+                    "score": 3446
+                },
+                {
+                    "id": "UCubybnI2mstR-E24cc0rt9w",
+                    "ranking": 59,
+                    "score": 3420
+                },
+                {
+                    "id": "UCrLxiPkgUEEnItqryMFVG2g",
+                    "ranking": 60,
+                    "score": 3366
+                },
+                {
+                    "id": "UCAJ-meoCh1TrPZ7La3UpPrw",
+                    "ranking": 61,
+                    "score": 3336
+                },
+                {
+                    "id": "UCVZI7eLie2UlZph6aiBRNrw",
+                    "ranking": 62,
+                    "score": 3280
+                },
+                {
+                    "id": "UCFM_07Mxv6CglREk8qdkPaw",
+                    "ranking": 63,
+                    "score": 3269
+                },
+                {
+                    "id": "UChfs1dQ5phBDBWZJ1hHLbUA",
+                    "ranking": 64,
+                    "score": 3262
+                },
+                {
+                    "id": "UC8vlKcN5OpklBkb-Q2xGGjA",
+                    "ranking": 65,
+                    "score": 3253
+                },
+                {
+                    "id": "UChQ-VMvdGrYZxviQVMTJOHg",
+                    "ranking": 66,
+                    "score": 3208
+                },
+                {
+                    "id": "UCdtV_sB8WUWo-P_q3OwNfcw",
+                    "ranking": 67,
+                    "score": 3115
+                },
+                {
+                    "id": "UC4rp07nTMJb13faNO94lm6A",
+                    "ranking": 68,
+                    "score": 3092
+                },
+                {
+                    "id": "UCYWW_lthmN8cvuIaN0G9D6g",
+                    "ranking": 69,
+                    "score": 3074
+                },
+                {
+                    "id": "UCzPLwuw2vJgxtEQk2nM4TVg",
+                    "ranking": 70,
+                    "score": 3057
+                },
+                {
+                    "id": "UCBjPppB6FOLloYBUvgbqE_A",
+                    "ranking": 71,
+                    "score": 3012
+                },
+                {
+                    "id": "UC1FK8EsrPHHVOvrDvctqpbQ",
+                    "ranking": 72,
+                    "score": 2993
+                },
+                {
+                    "id": "UCb5NLtXAsTBrmaZVhyFa-Wg",
+                    "ranking": 73,
+                    "score": 2955
+                },
+                {
+                    "id": "UCJGww2K__Q3y-MtDi0XWH2w",
+                    "ranking": 74,
+                    "score": 2944
+                },
+                {
+                    "id": "UCybKp0O2N9sUZOgIm1j2r_w",
+                    "ranking": 75,
+                    "score": 2900
+                },
+                {
+                    "id": "UC9nWnAJQDNBkJ_JlbKS-7VA",
+                    "ranking": 76,
+                    "score": 2887
+                },
+                {
+                    "id": "UC6t1NCFKCiBUuIbM3ujRRPQ",
+                    "ranking": 77,
+                    "score": 2884
+                },
+                {
+                    "id": "UCK1B7KLih3kE1Iy0SCBDzkQ",
+                    "ranking": 78,
+                    "score": 2860
+                },
+                {
+                    "id": "UC_5H4MxUOOtppCGjpVl3XPg",
+                    "ranking": 79,
+                    "score": 2802
+                },
+                {
+                    "id": "UCylzl5EMsHKCMeUe2TLKLKA",
+                    "ranking": 80,
+                    "score": 2737
+                },
+                {
+                    "id": "UC2uID-rcbLMi3RxZmZtwSZg",
+                    "ranking": 81,
+                    "score": 2717
+                },
+                {
+                    "id": "UCw1DsweY9b2AKGjV4kGJP1A",
+                    "ranking": 82,
+                    "score": 2685
+                },
+                {
+                    "id": "UCl4nBkmJCDs6RR8uWldAqLA",
+                    "ranking": 83,
+                    "score": 2672
+                },
+                {
+                    "id": "UC4XjKgCtpwpACzUCiUKOd3Q",
+                    "ranking": 84,
+                    "score": 2657
+                },
+                {
+                    "id": "UC1dG3vI9FfHnH3YgyeKUz_A",
+                    "ranking": 85,
+                    "score": 2625
+                },
+                {
+                    "id": "UCa-IaOPw5r1oQ4vuf3QjEPA",
+                    "ranking": 86,
+                    "score": 2594
+                },
+                {
+                    "id": "UCVjAW_GXsPAbXKKEJYPBs0g",
+                    "ranking": 87,
+                    "score": 2587
+                },
+                {
+                    "id": "UCqEoc6yuYRg5CFG4NIG8euQ",
+                    "ranking": 88,
+                    "score": 2577
+                },
+                {
+                    "id": "UCpVLAetJt6_XjktxxhDUY2w",
+                    "ranking": 89,
+                    "score": 2575
+                },
+                {
+                    "id": "UCg7rkxrTnIhiHEpXY1ec9NA",
+                    "ranking": 90,
+                    "score": 2564
+                },
+                {
+                    "id": "UCLJs55bZWMsCBPekt3vssoQ",
+                    "ranking": 91,
+                    "score": 2497
+                },
+                {
+                    "id": "UCnb4EuP3C0dxeika3b-bnXA",
+                    "ranking": 92,
+                    "score": 2479
+                },
+                {
+                    "id": "UCEcuyrAqhRVUmRdOd6FGKSw",
+                    "ranking": 93,
+                    "score": 2474
+                },
+                {
+                    "id": "UCd4vEfDwg_kzVI-9Eq8sPHA",
+                    "ranking": 94,
+                    "score": 2439
+                },
+                {
+                    "id": "UCYtNOIg99pgGcrE4Uo44OdQ",
+                    "ranking": 95,
+                    "score": 2432
+                },
+                {
+                    "id": "UCAJAJ9bAvfjFLRrsqeumJIA",
+                    "ranking": 96,
+                    "score": 2423
+                },
+                {
+                    "id": "UCJprx3bX49vNl6Bcw01Cwfg",
+                    "ranking": 97,
+                    "score": 2422
+                },
+                {
+                    "id": "UCgWwo8FJL3MCxfd66ip7nFg",
+                    "ranking": 98,
+                    "score": 2418
+                },
+                {
+                    "id": "UCJ7PxHj3J_YeH1N2spjR6NQ",
+                    "ranking": 99,
+                    "score": 2366
                 }
             ]
         },
         {
             "name": "ViewNum",
             "desc": "조회수가 증명하는 클라스",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "view_num",
             "score_desc": "총 채널 조회수",
             "channel_ids": [
@@ -476,172 +1176,872 @@
                     "id": "UCAaLhok91QDrweyuDRsmjqQ",
                     "ranking": 29,
                     "score": 597211079
+                },
+                {
+                    "id": "UCKDkGnyeib7mcU7LdD3x0jQ",
+                    "ranking": 30,
+                    "score": 587270206
+                },
+                {
+                    "id": "UC7uKMg7lPdCp4Nm1tLesihQ",
+                    "ranking": 31,
+                    "score": 581007953
+                },
+                {
+                    "id": "UC2uID-rcbLMi3RxZmZtwSZg",
+                    "ranking": 32,
+                    "score": 519129458
+                },
+                {
+                    "id": "UCN5oT4zGJX-_H6pE5isAEeg",
+                    "ranking": 33,
+                    "score": 500368608
+                },
+                {
+                    "id": "UCJDEss5wA1ddrCBC40giO8A",
+                    "ranking": 34,
+                    "score": 489685676
+                },
+                {
+                    "id": "UCnMBn-PNx1M9TLF0s-sEDeQ",
+                    "ranking": 35,
+                    "score": 477815184
+                },
+                {
+                    "id": "UC2NFRq9s2neD_Ml0tPhNC2Q",
+                    "ranking": 36,
+                    "score": 466320289
+                },
+                {
+                    "id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+                    "ranking": 37,
+                    "score": 461787128
+                },
+                {
+                    "id": "UC13r2XVC5h3unwWgo25puAw",
+                    "ranking": 38,
+                    "score": 454236448
+                },
+                {
+                    "id": "UCZcD2iYy55-SkEbv3tcMZrg",
+                    "ranking": 39,
+                    "score": 453041896
+                },
+                {
+                    "id": "UCyHvSKT_bLDYpkv1JjjsLAg",
+                    "ranking": 40,
+                    "score": 439912967
+                },
+                {
+                    "id": "UCLJs55bZWMsCBPekt3vssoQ",
+                    "ranking": 41,
+                    "score": 438917325
+                },
+                {
+                    "id": "UC1dG3vI9FfHnH3YgyeKUz_A",
+                    "ranking": 42,
+                    "score": 438653382
+                },
+                {
+                    "id": "UCiwOunGuqfKjcLIBsteAAJQ",
+                    "ranking": 43,
+                    "score": 431387294
+                },
+                {
+                    "id": "UCL_IvtOZo6sONpiydbzzHpA",
+                    "ranking": 44,
+                    "score": 421816741
+                },
+                {
+                    "id": "UCHsNxA14lzqnrm0mW7GQIXA",
+                    "ranking": 45,
+                    "score": 415649706
+                },
+                {
+                    "id": "UCDBAVzfX3yZ1hah0FHnOoaA",
+                    "ranking": 46,
+                    "score": 412911823
+                },
+                {
+                    "id": "UCb5NLtXAsTBrmaZVhyFa-Wg",
+                    "ranking": 47,
+                    "score": 408373636
+                },
+                {
+                    "id": "UCPI40-XQA9-GBGj2k8PPqfg",
+                    "ranking": 48,
+                    "score": 407512150
+                },
+                {
+                    "id": "UCcdlIcleb4oIK6of1ugSJ7w",
+                    "ranking": 49,
+                    "score": 396484850
+                },
+                {
+                    "id": "UCa-IaOPw5r1oQ4vuf3QjEPA",
+                    "ranking": 50,
+                    "score": 386548827
+                },
+                {
+                    "id": "UCIVFv8AiQLqM9oLHTixrNYw",
+                    "ranking": 51,
+                    "score": 384980173
+                },
+                {
+                    "id": "UCbLispC1ydHSC_69kjZI6hw",
+                    "ranking": 52,
+                    "score": 380964779
+                },
+                {
+                    "id": "UC8C0Yd20ke5XqOiZvMVgM9w",
+                    "ranking": 53,
+                    "score": 377624335
+                },
+                {
+                    "id": "UCnQRkIhRmXrxGrK4-8n-lVw",
+                    "ranking": 54,
+                    "score": 358614030
+                },
+                {
+                    "id": "UCeivPjjK9-cdj8-gw4-7JRg",
+                    "ranking": 55,
+                    "score": 357644722
+                },
+                {
+                    "id": "UCdmPH-DTjL52x5K3lRvHYQw",
+                    "ranking": 56,
+                    "score": 350929357
+                },
+                {
+                    "id": "UCbt557PsOnMaspiSUjuSVVw",
+                    "ranking": 57,
+                    "score": 347109706
+                },
+                {
+                    "id": "UCzPLwuw2vJgxtEQk2nM4TVg",
+                    "ranking": 58,
+                    "score": 334643800
+                },
+                {
+                    "id": "UCoHsxU1eDWHom6D7Fce6kLA",
+                    "ranking": 59,
+                    "score": 333959172
+                },
+                {
+                    "id": "UCgjaQlejpAnIu0q-xtVfTEw",
+                    "ranking": 60,
+                    "score": 333543158
+                },
+                {
+                    "id": "UCw1DsweY9b2AKGjV4kGJP1A",
+                    "ranking": 61,
+                    "score": 332796504
+                },
+                {
+                    "id": "UCHqvLC2ilL2M4_SpoFiWtuQ",
+                    "ranking": 62,
+                    "score": 328210894
+                },
+                {
+                    "id": "UCRY0vKmqFmQ4XCJomWMBf-w",
+                    "ranking": 63,
+                    "score": 327142003
+                },
+                {
+                    "id": "UC48NSSfUBsmL0k0wKxSqRkw",
+                    "ranking": 64,
+                    "score": 321710859
+                },
+                {
+                    "id": "UCqMixH4Cc7CdySihHG4kkIA",
+                    "ranking": 65,
+                    "score": 320021451
+                },
+                {
+                    "id": "UCtCnnCUn9IDDQRU9_04JD3g",
+                    "ranking": 66,
+                    "score": 317768207
+                },
+                {
+                    "id": "UCmP6N0_CMbMUYwQRaPoFyng",
+                    "ranking": 67,
+                    "score": 314777343
+                },
+                {
+                    "id": "UCqIwPYLfMd3EoWYwvyTjPnA",
+                    "ranking": 68,
+                    "score": 310742698
+                },
+                {
+                    "id": "UCR3rHpatQ69g1uiGfGp60rw",
+                    "ranking": 69,
+                    "score": 310327874
+                },
+                {
+                    "id": "UC4Qw1uE9kwUI4cCAx9HZtxw",
+                    "ranking": 70,
+                    "score": 307498886
+                },
+                {
+                    "id": "UChs3xgH4BWAsTi-SGjECiZA",
+                    "ranking": 71,
+                    "score": 307153550
+                },
+                {
+                    "id": "UC1MO5uem_t8lRgvIBF9u83w",
+                    "ranking": 72,
+                    "score": 305311273
+                },
+                {
+                    "id": "UC-okJdotaXPlzivRzHFqzuA",
+                    "ranking": 73,
+                    "score": 303825971
+                },
+                {
+                    "id": "UCAJAJ9bAvfjFLRrsqeumJIA",
+                    "ranking": 74,
+                    "score": 303716862
+                },
+                {
+                    "id": "UCnCFD3met1Ip7OngdF9TRDg",
+                    "ranking": 75,
+                    "score": 302620377
+                },
+                {
+                    "id": "UCbiqc9mdIz3XEH6LG5nCeMg",
+                    "ranking": 76,
+                    "score": 299817919
+                },
+                {
+                    "id": "UCCA8UWUW80iHqK9ymdjRwPg",
+                    "ranking": 77,
+                    "score": 297142518
+                },
+                {
+                    "id": "UCt1dxdedblLX2PsSFFK0Hzw",
+                    "ranking": 78,
+                    "score": 287740013
+                },
+                {
+                    "id": "UCtj_00nn_viF6wJNeqgpEiA",
+                    "ranking": 79,
+                    "score": 287634356
+                },
+                {
+                    "id": "UCp77saYy1V_F3dld7GfJrcg",
+                    "ranking": 80,
+                    "score": 285326048
+                },
+                {
+                    "id": "UCdtV_sB8WUWo-P_q3OwNfcw",
+                    "ranking": 81,
+                    "score": 283560122
+                },
+                {
+                    "id": "UCqVkQsNin4MdGFrWvzFVOKw",
+                    "ranking": 82,
+                    "score": 277581012
+                },
+                {
+                    "id": "UC8CIM3d3zDYMk-3T5aAz0yw",
+                    "ranking": 83,
+                    "score": 276766569
+                },
+                {
+                    "id": "UCVZI7eLie2UlZph6aiBRNrw",
+                    "ranking": 84,
+                    "score": 274194716
+                },
+                {
+                    "id": "UCw-JzmPsjRcbzJLncr4pIIA",
+                    "ranking": 85,
+                    "score": 263894550
+                },
+                {
+                    "id": "UCXZaTqDKXHmNfKZ1ywhxe0w",
+                    "ranking": 86,
+                    "score": 258122099
+                },
+                {
+                    "id": "UCFMzJRPsLOL17lwxN_MdcnA",
+                    "ranking": 87,
+                    "score": 255142205
+                },
+                {
+                    "id": "UCsR07Y3qMhf_oKxit4xLoHg",
+                    "ranking": 88,
+                    "score": 254742001
+                },
+                {
+                    "id": "UCj1dw4G9v09OLXIxiL_VUEA",
+                    "ranking": 89,
+                    "score": 253741689
+                },
+                {
+                    "id": "UCAJ-meoCh1TrPZ7La3UpPrw",
+                    "ranking": 90,
+                    "score": 251967919
+                },
+                {
+                    "id": "UCSzHok6X5qXEO7cjvVnE62g",
+                    "ranking": 91,
+                    "score": 248231858
+                },
+                {
+                    "id": "UCn_9mH91rLWez9SZ6AdjfYg",
+                    "ranking": 92,
+                    "score": 245800592
+                },
+                {
+                    "id": "UCooLkG0FfrkPBQsSuC95L6w",
+                    "ranking": 93,
+                    "score": 245572689
+                },
+                {
+                    "id": "UCYhUJGAH6HhOUJokzRupkpQ",
+                    "ranking": 94,
+                    "score": 244092565
+                },
+                {
+                    "id": "UCJGww2K__Q3y-MtDi0XWH2w",
+                    "ranking": 95,
+                    "score": 242255939
+                },
+                {
+                    "id": "UCobtktl5cCEYuAKLSY0vc2w",
+                    "ranking": 96,
+                    "score": 239741935
+                },
+                {
+                    "id": "UCt15X5eHLwyP8PpNtQTkuDQ",
+                    "ranking": 97,
+                    "score": 239418077
+                },
+                {
+                    "id": "UCO5bdxKgKczSpjFbfsGykmA",
+                    "ranking": 98,
+                    "score": 238870077
+                },
+                {
+                    "id": "UCRpdlPk671uOMiBtf5HtB3Q",
+                    "ranking": 99,
+                    "score": 238634676
                 }
             ]
         },
         {
             "name": "RecentUploadVideoNum",
             "desc": "최근 한달간 최고 허슬러",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "recent_upload_video_num",
             "score_desc": "최근 한달간 업로드한 동영상 개수",
             "channel_ids": [
                 {
-                    "id": "UCfA0tTDLNooBB0ymdoI5M7w",
+                    "id": "UCf8xJL-CznwfW7W2LO3y_EQ",
                     "ranking": 0,
                     "score": 50
                 },
                 {
-                    "id": "UCl402YYy7RcH7PBI3npmGPQ",
+                    "id": "UCfA0tTDLNooBB0ymdoI5M7w",
                     "ranking": 1,
                     "score": 50
                 },
                 {
-                    "id": "UCXybGky1c_63xzXFzI0eU8A",
+                    "id": "UCqVkQsNin4MdGFrWvzFVOKw",
                     "ranking": 2,
                     "score": 50
                 },
                 {
-                    "id": "UCfdLDnGcRM3okEOtocWNHuQ",
+                    "id": "UCl402YYy7RcH7PBI3npmGPQ",
                     "ranking": 3,
                     "score": 50
                 },
                 {
-                    "id": "UCqVkQsNin4MdGFrWvzFVOKw",
+                    "id": "UCbt557PsOnMaspiSUjuSVVw",
                     "ranking": 4,
-                    "score": 48
+                    "score": 50
+                },
+                {
+                    "id": "UCQJuZxeDv2P05YHcC-tIEVQ",
+                    "ranking": 5,
+                    "score": 50
+                },
+                {
+                    "id": "UCXybGky1c_63xzXFzI0eU8A",
+                    "ranking": 6,
+                    "score": 50
                 },
                 {
                     "id": "UCnCFD3met1Ip7OngdF9TRDg",
-                    "ranking": 5,
-                    "score": 48
-                },
-                {
-                    "id": "UCf8xJL-CznwfW7W2LO3y_EQ",
-                    "ranking": 6,
-                    "score": 42
-                },
-                {
-                    "id": "UCSHVH_AWVUc-C8-D8mh8W6A",
                     "ranking": 7,
-                    "score": 42
+                    "score": 50
                 },
                 {
-                    "id": "UCbt557PsOnMaspiSUjuSVVw",
+                    "id": "UCfdLDnGcRM3okEOtocWNHuQ",
                     "ranking": 8,
-                    "score": 42
+                    "score": 50
                 },
                 {
                     "id": "UC-okJdotaXPlzivRzHFqzuA",
                     "ranking": 9,
-                    "score": 41
-                },
-                {
-                    "id": "UCoYFo-lRD3pchMUtsBcEbOA",
-                    "ranking": 10,
-                    "score": 38
-                },
-                {
-                    "id": "UCQJuZxeDv2P05YHcC-tIEVQ",
-                    "ranking": 11,
-                    "score": 38
-                },
-                {
-                    "id": "UCw1DsweY9b2AKGjV4kGJP1A",
-                    "ranking": 12,
-                    "score": 35
+                    "score": 50
                 },
                 {
                     "id": "UC5LL5w510Njr8heGeue1sEA",
+                    "ranking": 10,
+                    "score": 48
+                },
+                {
+                    "id": "UCSHVH_AWVUc-C8-D8mh8W6A",
+                    "ranking": 11,
+                    "score": 48
+                },
+                {
+                    "id": "UCoYFo-lRD3pchMUtsBcEbOA",
+                    "ranking": 12,
+                    "score": 45
+                },
+                {
+                    "id": "UCl4nBkmJCDs6RR8uWldAqLA",
                     "ranking": 13,
-                    "score": 34
+                    "score": 45
                 },
                 {
                     "id": "UC1dG3vI9FfHnH3YgyeKUz_A",
                     "ranking": 14,
-                    "score": 34
+                    "score": 41
                 },
                 {
-                    "id": "UCl4nBkmJCDs6RR8uWldAqLA",
+                    "id": "UCHsK9gl5aU0F3umrU4Zn_sA",
                     "ranking": 15,
-                    "score": 34
+                    "score": 40
+                },
+                {
+                    "id": "UC5ScPjbt-a97AJO7SBj6nAg",
+                    "ranking": 16,
+                    "score": 40
                 },
                 {
                     "id": "UCybKp0O2N9sUZOgIm1j2r_w",
-                    "ranking": 16,
-                    "score": 30
+                    "ranking": 17,
+                    "score": 40
                 },
                 {
                     "id": "UC9nWnAJQDNBkJ_JlbKS-7VA",
-                    "ranking": 17,
-                    "score": 30
-                },
-                {
-                    "id": "UCqMixH4Cc7CdySihHG4kkIA",
                     "ranking": 18,
-                    "score": 28
+                    "score": 40
                 },
                 {
                     "id": "UCvG7coejM6UD_rOnuDdIoFw",
                     "ranking": 19,
-                    "score": 28
+                    "score": 38
                 },
                 {
                     "id": "UC1FK8EsrPHHVOvrDvctqpbQ",
                     "ranking": 20,
-                    "score": 28
-                },
-                {
-                    "id": "UC5ScPjbt-a97AJO7SBj6nAg",
-                    "ranking": 21,
-                    "score": 27
-                },
-                {
-                    "id": "UCpVLAetJt6_XjktxxhDUY2w",
-                    "ranking": 22,
-                    "score": 27
-                },
-                {
-                    "id": "UCeSnJtdf_dgvFqtK1PpxygA",
-                    "ranking": 23,
-                    "score": 27
+                    "score": 38
                 },
                 {
                     "id": "UCKd2rI7xVJm86kav7okWC6A",
-                    "ranking": 24,
-                    "score": 26
+                    "ranking": 21,
+                    "score": 36
                 },
                 {
-                    "id": "UC9pCNmC-Ovq2sRfHIwLDuIg",
-                    "ranking": 25,
-                    "score": 26
+                    "id": "UCw1DsweY9b2AKGjV4kGJP1A",
+                    "ranking": 22,
+                    "score": 36
                 },
                 {
                     "id": "UCEVnzHZkNMG-XFUGomZ24cg",
+                    "ranking": 23,
+                    "score": 36
+                },
+                {
+                    "id": "UCqMixH4Cc7CdySihHG4kkIA",
+                    "ranking": 24,
+                    "score": 36
+                },
+                {
+                    "id": "UCpVLAetJt6_XjktxxhDUY2w",
+                    "ranking": 25,
+                    "score": 34
+                },
+                {
+                    "id": "UC9pCNmC-Ovq2sRfHIwLDuIg",
                     "ranking": 26,
-                    "score": 26
+                    "score": 34
+                },
+                {
+                    "id": "UCeSnJtdf_dgvFqtK1PpxygA",
+                    "ranking": 27,
+                    "score": 34
+                },
+                {
+                    "id": "UCcL8PoeJCC6DwAcKyzw_eQg",
+                    "ranking": 28,
+                    "score": 33
+                },
+                {
+                    "id": "UC4XjKgCtpwpACzUCiUKOd3Q",
+                    "ranking": 29,
+                    "score": 32
                 },
                 {
                     "id": "UC4TDU9SEVB0EgslnTI2O9IQ",
-                    "ranking": 27,
-                    "score": 26
-                },
-                {
-                    "id": "UCYooECrv-fIXlPaDwEIaveA",
-                    "ranking": 28,
-                    "score": 24
+                    "ranking": 30,
+                    "score": 32
                 },
                 {
                     "id": "UCilYpdgaNbW8x8_E83vomNw",
-                    "ranking": 29,
+                    "ranking": 31,
+                    "score": 32
+                },
+                {
+                    "id": "UCYooECrv-fIXlPaDwEIaveA",
+                    "ranking": 32,
+                    "score": 31
+                },
+                {
+                    "id": "UCeG0ONJtjwE20ThR5iSYdsA",
+                    "ranking": 33,
+                    "score": 31
+                },
+                {
+                    "id": "UCKr3S2aX4SyNkQTY-8UM86A",
+                    "ranking": 34,
+                    "score": 30
+                },
+                {
+                    "id": "UCnb4EuP3C0dxeika3b-bnXA",
+                    "ranking": 35,
+                    "score": 30
+                },
+                {
+                    "id": "UCcdlIcleb4oIK6of1ugSJ7w",
+                    "ranking": 36,
+                    "score": 30
+                },
+                {
+                    "id": "UCQfISxq5legTqOt1h1us6lg",
+                    "ranking": 37,
+                    "score": 29
+                },
+                {
+                    "id": "UCHsNxA14lzqnrm0mW7GQIXA",
+                    "ranking": 38,
+                    "score": 29
+                },
+                {
+                    "id": "UCXZaTqDKXHmNfKZ1ywhxe0w",
+                    "ranking": 39,
+                    "score": 29
+                },
+                {
+                    "id": "UC4gnNZCL8d6Eq2lLNqk5aSg",
+                    "ranking": 40,
+                    "score": 28
+                },
+                {
+                    "id": "UChfs1dQ5phBDBWZJ1hHLbUA",
+                    "ranking": 41,
+                    "score": 28
+                },
+                {
+                    "id": "UCmCNgLHdknmCdQelpwxQvvg",
+                    "ranking": 42,
+                    "score": 28
+                },
+                {
+                    "id": "UCXOLqHsi_mxJdTIqU7B6OmQ",
+                    "ranking": 43,
+                    "score": 28
+                },
+                {
+                    "id": "UCOTJtP0Z9DjpPU43B5m1V6A",
+                    "ranking": 44,
+                    "score": 27
+                },
+                {
+                    "id": "UCyfg0TBg4jwIqnX3uNADnhg",
+                    "ranking": 45,
+                    "score": 27
+                },
+                {
+                    "id": "UCFMzJRPsLOL17lwxN_MdcnA",
+                    "ranking": 46,
+                    "score": 27
+                },
+                {
+                    "id": "UC58e7PIf49oMlDljMFPSy0w",
+                    "ranking": 47,
+                    "score": 27
+                },
+                {
+                    "id": "UCoH2pCzAr6zWDG-LtUiLWRw",
+                    "ranking": 48,
+                    "score": 27
+                },
+                {
+                    "id": "UCvrxJgD0T_TFvgsO2nA-fDQ",
+                    "ranking": 49,
+                    "score": 26
+                },
+                {
+                    "id": "UCFM_07Mxv6CglREk8qdkPaw",
+                    "ranking": 50,
+                    "score": 26
+                },
+                {
+                    "id": "UCc_7XbnN1bTFMhquCKt3ngA",
+                    "ranking": 51,
+                    "score": 26
+                },
+                {
+                    "id": "UCVZI7eLie2UlZph6aiBRNrw",
+                    "ranking": 52,
+                    "score": 26
+                },
+                {
+                    "id": "UCw7FqLmYfW-nAVhEd_grcZg",
+                    "ranking": 53,
+                    "score": 26
+                },
+                {
+                    "id": "UCg7rkxrTnIhiHEpXY1ec9NA",
+                    "ranking": 54,
+                    "score": 26
+                },
+                {
+                    "id": "UCqIwPYLfMd3EoWYwvyTjPnA",
+                    "ranking": 55,
+                    "score": 26
+                },
+                {
+                    "id": "UCOXPm9nqKtb2pIpO0UybBHA",
+                    "ranking": 56,
+                    "score": 25
+                },
+                {
+                    "id": "UCb5NLtXAsTBrmaZVhyFa-Wg",
+                    "ranking": 57,
+                    "score": 25
+                },
+                {
+                    "id": "UCXAXCxTCCYYKsLJNzEvjqfw",
+                    "ranking": 58,
+                    "score": 25
+                },
+                {
+                    "id": "UCIchCOLwLBMD87quHlNuXjQ",
+                    "ranking": 59,
+                    "score": 25
+                },
+                {
+                    "id": "UCD8r5Jgns2V64-NcUmXclpg",
+                    "ranking": 60,
+                    "score": 25
+                },
+                {
+                    "id": "UCUj6rrhMTR9pipbAWBAMvUQ",
+                    "ranking": 61,
+                    "score": 25
+                },
+                {
+                    "id": "UC0aKwoKNeqBaUwiEXmkQaGQ",
+                    "ranking": 62,
+                    "score": 25
+                },
+                {
+                    "id": "UCZZEgBpbLP0ILVc4nGg39-w",
+                    "ranking": 63,
+                    "score": 25
+                },
+                {
+                    "id": "UCAm0pQmaq6dTcH2-qL6RQjQ",
+                    "ranking": 64,
                     "score": 24
+                },
+                {
+                    "id": "UCAJAJ9bAvfjFLRrsqeumJIA",
+                    "ranking": 65,
+                    "score": 24
+                },
+                {
+                    "id": "UC9vI-9WYQLXKI6n9XdXXo3g",
+                    "ranking": 66,
+                    "score": 24
+                },
+                {
+                    "id": "UCzPLwuw2vJgxtEQk2nM4TVg",
+                    "ranking": 67,
+                    "score": 24
+                },
+                {
+                    "id": "UCeivPjjK9-cdj8-gw4-7JRg",
+                    "ranking": 68,
+                    "score": 24
+                },
+                {
+                    "id": "UCO5bdxKgKczSpjFbfsGykmA",
+                    "ranking": 69,
+                    "score": 24
+                },
+                {
+                    "id": "UClDbuB3bgZYVIaN3534c_ew",
+                    "ranking": 70,
+                    "score": 24
+                },
+                {
+                    "id": "UCAGUSx1hbPKDqzBZH7bTjiA",
+                    "ranking": 71,
+                    "score": 24
+                },
+                {
+                    "id": "UCYG8tuvbQzWsDeoADyJFU8Q",
+                    "ranking": 72,
+                    "score": 24
+                },
+                {
+                    "id": "UCd4vEfDwg_kzVI-9Eq8sPHA",
+                    "ranking": 73,
+                    "score": 24
+                },
+                {
+                    "id": "UCHYMpkGhNIr8A0m2H3lIjUA",
+                    "ranking": 74,
+                    "score": 24
+                },
+                {
+                    "id": "UCVgTydj9KUfDm_qmXPtx0FA",
+                    "ranking": 75,
+                    "score": 24
+                },
+                {
+                    "id": "UCZcD2iYy55-SkEbv3tcMZrg",
+                    "ranking": 76,
+                    "score": 24
+                },
+                {
+                    "id": "UCmOmhm_p0UEwcPkAmotX8RQ",
+                    "ranking": 77,
+                    "score": 24
+                },
+                {
+                    "id": "UCBkyj16n2snkRg1BAzpovXQ",
+                    "ranking": 78,
+                    "score": 24
+                },
+                {
+                    "id": "UCqpW5qIRfLkgnYtpe59Fapw",
+                    "ranking": 79,
+                    "score": 24
+                },
+                {
+                    "id": "UC5pbeFWTPAUdKu65kBROsBg",
+                    "ranking": 80,
+                    "score": 24
+                },
+                {
+                    "id": "UChD2kf1XO2sxR4t4s_oPPMA",
+                    "ranking": 81,
+                    "score": 24
+                },
+                {
+                    "id": "UC_jNan0EvSTUNKT2dj6U31A",
+                    "ranking": 82,
+                    "score": 24
+                },
+                {
+                    "id": "UCj1dw4G9v09OLXIxiL_VUEA",
+                    "ranking": 83,
+                    "score": 24
+                },
+                {
+                    "id": "UCQLfdihF1WwbuVcgJq6x6Iw",
+                    "ranking": 84,
+                    "score": 23
+                },
+                {
+                    "id": "UC5WxymH7e2H_SGjJyvTb-iA",
+                    "ranking": 85,
+                    "score": 23
+                },
+                {
+                    "id": "UCaiyyjmlyH70au7pzKE4jnQ",
+                    "ranking": 86,
+                    "score": 23
+                },
+                {
+                    "id": "UCPI40-XQA9-GBGj2k8PPqfg",
+                    "ranking": 87,
+                    "score": 23
+                },
+                {
+                    "id": "UCozuuEEitjQXtCzubNO0BGA",
+                    "ranking": 88,
+                    "score": 23
+                },
+                {
+                    "id": "UCmP6N0_CMbMUYwQRaPoFyng",
+                    "ranking": 89,
+                    "score": 23
+                },
+                {
+                    "id": "UCHdsNK3SJi7tI85f4XPy7zA",
+                    "ranking": 90,
+                    "score": 23
+                },
+                {
+                    "id": "UCY74n-XQJ69dxNdN7h71wLg",
+                    "ranking": 91,
+                    "score": 23
+                },
+                {
+                    "id": "UCoGlmInGRIRoDg4NjAYv4-Q",
+                    "ranking": 92,
+                    "score": 23
+                },
+                {
+                    "id": "UCo33r3SAf5z9MS-lrXV2aOQ",
+                    "ranking": 93,
+                    "score": 23
+                },
+                {
+                    "id": "UC1q4Ihlv_YhLELw-ijE0Diw",
+                    "ranking": 94,
+                    "score": 23
+                },
+                {
+                    "id": "UC3DYSay178fMMPaf3zHwECA",
+                    "ranking": 95,
+                    "score": 23
+                },
+                {
+                    "id": "UCgjaQlejpAnIu0q-xtVfTEw",
+                    "ranking": 96,
+                    "score": 23
+                },
+                {
+                    "id": "UCS3_H_feQRm4QbXipKTvSrw",
+                    "ranking": 97,
+                    "score": 23
+                },
+                {
+                    "id": "UC75lZzaXiCn0EYTwg9MB5vg",
+                    "ranking": 98,
+                    "score": 23
+                },
+                {
+                    "id": "UCpXnb06Y0uc6ewEf3WL4wDQ",
+                    "ranking": 99,
+                    "score": 23
                 }
             ]
         },
         {
             "name": "SubscriberPerView",
             "desc": "생각보다 더 유명한 유튜버들",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "subscriber_per_view",
             "score_desc": "구독자 대비 채널 총 조회수",
             "channel_ids": [
@@ -794,13 +2194,363 @@
                     "id": "UCHsK9gl5aU0F3umrU4Zn_sA",
                     "ranking": 29,
                     "score": "1012.65"
+                },
+                {
+                    "id": "UCBjPppB6FOLloYBUvgbqE_A",
+                    "ranking": 30,
+                    "score": "997.94"
+                },
+                {
+                    "id": "UCbt557PsOnMaspiSUjuSVVw",
+                    "ranking": 31,
+                    "score": "997.44"
+                },
+                {
+                    "id": "UC-okJdotaXPlzivRzHFqzuA",
+                    "ranking": 32,
+                    "score": "992.90"
+                },
+                {
+                    "id": "UCH29Gz8a6veRLqUxzjBXHrQ",
+                    "ranking": 33,
+                    "score": "986.70"
+                },
+                {
+                    "id": "UCRY0vKmqFmQ4XCJomWMBf-w",
+                    "ranking": 34,
+                    "score": "982.41"
+                },
+                {
+                    "id": "UCFHUplScMiWTjJrtv4hxWmg",
+                    "ranking": 35,
+                    "score": "978.37"
+                },
+                {
+                    "id": "UC4pIb-g1hjtWK6T98UqeQkQ",
+                    "ranking": 36,
+                    "score": "978.03"
+                },
+                {
+                    "id": "UCyHvSKT_bLDYpkv1JjjsLAg",
+                    "ranking": 37,
+                    "score": "975.42"
+                },
+                {
+                    "id": "UCYX9IB_lU43EenSWKDlheUg",
+                    "ranking": 38,
+                    "score": "957.93"
+                },
+                {
+                    "id": "UCQLfdihF1WwbuVcgJq6x6Iw",
+                    "ranking": 39,
+                    "score": "953.46"
+                },
+                {
+                    "id": "UC4gnNZCL8d6Eq2lLNqk5aSg",
+                    "ranking": 40,
+                    "score": "952.29"
+                },
+                {
+                    "id": "UCXmdpmRnf5WKMssvByY2Elg",
+                    "ranking": 41,
+                    "score": "945.93"
+                },
+                {
+                    "id": "UCcdlIcleb4oIK6of1ugSJ7w",
+                    "ranking": 42,
+                    "score": "932.91"
+                },
+                {
+                    "id": "UChfs1dQ5phBDBWZJ1hHLbUA",
+                    "ranking": 43,
+                    "score": "927.65"
+                },
+                {
+                    "id": "UCta_NRwnsUaew0t3VNxBNyg",
+                    "ranking": 44,
+                    "score": "923.46"
+                },
+                {
+                    "id": "UCAI86CUHDIkKXGA6YpVBhYg",
+                    "ranking": 45,
+                    "score": "910.67"
+                },
+                {
+                    "id": "UCJGww2K__Q3y-MtDi0XWH2w",
+                    "ranking": 46,
+                    "score": "903.94"
+                },
+                {
+                    "id": "UCcL8PoeJCC6DwAcKyzw_eQg",
+                    "ranking": 47,
+                    "score": "903.62"
+                },
+                {
+                    "id": "UCdtV_sB8WUWo-P_q3OwNfcw",
+                    "ranking": 48,
+                    "score": "897.34"
+                },
+                {
+                    "id": "UCmP6N0_CMbMUYwQRaPoFyng",
+                    "ranking": 49,
+                    "score": "889.20"
+                },
+                {
+                    "id": "UCEcuyrAqhRVUmRdOd6FGKSw",
+                    "ranking": 50,
+                    "score": "888.26"
+                },
+                {
+                    "id": "UCz1lALRICSdUzHRjJVVo9NQ",
+                    "ranking": 51,
+                    "score": "878.32"
+                },
+                {
+                    "id": "UCnb4EuP3C0dxeika3b-bnXA",
+                    "ranking": 52,
+                    "score": "878.27"
+                },
+                {
+                    "id": "UCAhmOb9JWkI2HV_KIe9X_3A",
+                    "ranking": 53,
+                    "score": "878.08"
+                },
+                {
+                    "id": "UCJ9Mk-2MwdoS_zMKgkdVUNw",
+                    "ranking": 54,
+                    "score": "875.43"
+                },
+                {
+                    "id": "UCRZURXN2vyCYzB9eYbSKQiw",
+                    "ranking": 55,
+                    "score": "868.46"
+                },
+                {
+                    "id": "UCnMBn-PNx1M9TLF0s-sEDeQ",
+                    "ranking": 56,
+                    "score": "862.48"
+                },
+                {
+                    "id": "UCEOoYEH7uLJ0Ux566Hy3XmQ",
+                    "ranking": 57,
+                    "score": "861.01"
+                },
+                {
+                    "id": "UCFM_07Mxv6CglREk8qdkPaw",
+                    "ranking": 58,
+                    "score": "851.23"
+                },
+                {
+                    "id": "UCQePzo3_oRB-6RAzBioc6pg",
+                    "ranking": 59,
+                    "score": "846.35"
+                },
+                {
+                    "id": "UClDbuB3bgZYVIaN3534c_ew",
+                    "ranking": 60,
+                    "score": "844.44"
+                },
+                {
+                    "id": "UCHsNxA14lzqnrm0mW7GQIXA",
+                    "ranking": 61,
+                    "score": "832.97"
+                },
+                {
+                    "id": "UC6k_2mRnYn8b-W-pKtBy85w",
+                    "ranking": 62,
+                    "score": "827.73"
+                },
+                {
+                    "id": "UCN5Z4EkujWOl7UMbc4J-3Cw",
+                    "ranking": 63,
+                    "score": "822.73"
+                },
+                {
+                    "id": "UCqEoc6yuYRg5CFG4NIG8euQ",
+                    "ranking": 64,
+                    "score": "820.13"
+                },
+                {
+                    "id": "UC5LL5w510Njr8heGeue1sEA",
+                    "ranking": 65,
+                    "score": "820.01"
+                },
+                {
+                    "id": "UCJDEss5wA1ddrCBC40giO8A",
+                    "ranking": 66,
+                    "score": "817.51"
+                },
+                {
+                    "id": "UC4TDU9SEVB0EgslnTI2O9IQ",
+                    "ranking": 67,
+                    "score": "817.47"
+                },
+                {
+                    "id": "UCa-IaOPw5r1oQ4vuf3QjEPA",
+                    "ranking": 68,
+                    "score": "813.79"
+                },
+                {
+                    "id": "UCl4nBkmJCDs6RR8uWldAqLA",
+                    "ranking": 69,
+                    "score": "811.55"
+                },
+                {
+                    "id": "UCqIwPYLfMd3EoWYwvyTjPnA",
+                    "ranking": 70,
+                    "score": "807.12"
+                },
+                {
+                    "id": "UCYhUJGAH6HhOUJokzRupkpQ",
+                    "ranking": 71,
+                    "score": "805.59"
+                },
+                {
+                    "id": "UCybKp0O2N9sUZOgIm1j2r_w",
+                    "ranking": 72,
+                    "score": "805.14"
+                },
+                {
+                    "id": "UC-Zedn7a_RJyb5hUQ-aGZog",
+                    "ranking": 73,
+                    "score": "801.96"
+                },
+                {
+                    "id": "UCYaFxuv97e0qSx1MU9FvhGg",
+                    "ranking": 74,
+                    "score": "800.52"
+                },
+                {
+                    "id": "UCSHVH_AWVUc-C8-D8mh8W6A",
+                    "ranking": 75,
+                    "score": "792.83"
+                },
+                {
+                    "id": "UCeG0ONJtjwE20ThR5iSYdsA",
+                    "ranking": 76,
+                    "score": "791.22"
+                },
+                {
+                    "id": "UCL_IvtOZo6sONpiydbzzHpA",
+                    "ranking": 77,
+                    "score": "789.92"
+                },
+                {
+                    "id": "UCb5NLtXAsTBrmaZVhyFa-Wg",
+                    "ranking": 78,
+                    "score": "780.83"
+                },
+                {
+                    "id": "UC5ScPjbt-a97AJO7SBj6nAg",
+                    "ranking": 79,
+                    "score": "779.05"
+                },
+                {
+                    "id": "UC5pbeFWTPAUdKu65kBROsBg",
+                    "ranking": 80,
+                    "score": "778.07"
+                },
+                {
+                    "id": "UCk5C4AR3uvmKwZYkIlSobbg",
+                    "ranking": 81,
+                    "score": "766.70"
+                },
+                {
+                    "id": "UCMsjY8EfFZNul-_7DvWe6Aw",
+                    "ranking": 82,
+                    "score": "766.32"
+                },
+                {
+                    "id": "UCXAXCxTCCYYKsLJNzEvjqfw",
+                    "ranking": 83,
+                    "score": "761.17"
+                },
+                {
+                    "id": "UCORzNUvBtd0j_wraSf88Y4w",
+                    "ranking": 84,
+                    "score": "757.75"
+                },
+                {
+                    "id": "UCRCK5FCJtomQT3b88jXI_DA",
+                    "ranking": 85,
+                    "score": "756.88"
+                },
+                {
+                    "id": "UCFMzJRPsLOL17lwxN_MdcnA",
+                    "ranking": 86,
+                    "score": "752.63"
+                },
+                {
+                    "id": "UCo33r3SAf5z9MS-lrXV2aOQ",
+                    "ranking": 87,
+                    "score": "750.90"
+                },
+                {
+                    "id": "UCgWwo8FJL3MCxfd66ip7nFg",
+                    "ranking": 88,
+                    "score": "747.15"
+                },
+                {
+                    "id": "UCbLispC1ydHSC_69kjZI6hw",
+                    "ranking": 89,
+                    "score": "739.74"
+                },
+                {
+                    "id": "UCgT2gPsXQ0jqb3poL5wN31Q",
+                    "ranking": 90,
+                    "score": "735.16"
+                },
+                {
+                    "id": "UCHdsNK3SJi7tI85f4XPy7zA",
+                    "ranking": 91,
+                    "score": "728.65"
+                },
+                {
+                    "id": "UCeZZ5LAX3as-CPv-Bj3hPdQ",
+                    "ranking": 92,
+                    "score": "726.90"
+                },
+                {
+                    "id": "UCo2qwN2FUPnLLJjHXNusFyQ",
+                    "ranking": 93,
+                    "score": "720.71"
+                },
+                {
+                    "id": "UCIchCOLwLBMD87quHlNuXjQ",
+                    "ranking": 94,
+                    "score": "720.54"
+                },
+                {
+                    "id": "UCHqvLC2ilL2M4_SpoFiWtuQ",
+                    "ranking": 95,
+                    "score": "708.88"
+                },
+                {
+                    "id": "UC1FK8EsrPHHVOvrDvctqpbQ",
+                    "ranking": 96,
+                    "score": "708.41"
+                },
+                {
+                    "id": "UC1dHu9GhbHH7RcHKyJdaOvA",
+                    "ranking": 97,
+                    "score": "706.51"
+                },
+                {
+                    "id": "UCdZGwKwvi_i5BLvFzCj4FXw",
+                    "ranking": 98,
+                    "score": "704.46"
+                },
+                {
+                    "id": "UCBkyj16n2snkRg1BAzpovXQ",
+                    "ranking": 99,
+                    "score": "702.12"
                 }
             ]
         },
         {
             "name": "LikePerView",
             "desc": "왜 이렇게 날 좋아하는거야?",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "like_per_view",
             "score_desc": "조회수 대비 '좋아요' 비율",
             "channel_ids": [
@@ -953,13 +2703,363 @@
                     "id": "UCc0_4m8a-YtBHEcYwjEnbxw",
                     "ranking": 29,
                     "score": "0.04"
+                },
+                {
+                    "id": "UC0SsBKkmlkyNx6bo0SSAEpQ",
+                    "ranking": 30,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UCMoQZs-z0PECNIs-b8CHOag",
+                    "ranking": 31,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UC2FDVyrQnjoZCUyk9fmqd9g",
+                    "ranking": 32,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UC6t1NCFKCiBUuIbM3ujRRPQ",
+                    "ranking": 33,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UCSCogaMMoxrDe43Cx_kB9cQ",
+                    "ranking": 34,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UCXhTIte6TjoItbiUVUnMIlA",
+                    "ranking": 35,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UCk5mlvpbj8CZxD229CpiouA",
+                    "ranking": 36,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UC0z8bddfRBRBmEC-AjI6UXw",
+                    "ranking": 37,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UC9aktiWNGpSJKLshflga5yw",
+                    "ranking": 38,
+                    "score": "0.04"
+                },
+                {
+                    "id": "UC8JzTlzwWkbyQuXaYDb00nA",
+                    "ranking": 39,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCgzC7SsCYSfGrVWoHQS5W8A",
+                    "ranking": 40,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCXM-GWvgXxj8V_Q_o1B4zyQ",
+                    "ranking": 41,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCi66uG_I878tcnbIhN7KRcg",
+                    "ranking": 42,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC9ta639M37zzWKwo7kKc80A",
+                    "ranking": 43,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCLLGccON9y08RB7xqusu_Ww",
+                    "ranking": 44,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC5ScPjbt-a97AJO7SBj6nAg",
+                    "ranking": 45,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCUEX0L7GHPs95m8S7G6kWVA",
+                    "ranking": 46,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCSQkftbg2z4kz4NNBVs6CIQ",
+                    "ranking": 47,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCnxOGZwppMFnMYS-eUJtwXw",
+                    "ranking": 48,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCzoX_XRk4Pd5thE2k59c2pw",
+                    "ranking": 49,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCpUMkvvodRfGDkVN27lFe3Q",
+                    "ranking": 50,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCidO_j4TWaTvUiid2WffuqA",
+                    "ranking": 51,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCtCnnCUn9IDDQRU9_04JD3g",
+                    "ranking": 52,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCLdxLyuNHafN-1UlOs2BK8A",
+                    "ranking": 53,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCH29Gz8a6veRLqUxzjBXHrQ",
+                    "ranking": 54,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC4i0dvptG3PokPjMx6r1zNQ",
+                    "ranking": 55,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC5LL5w510Njr8heGeue1sEA",
+                    "ranking": 56,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC9Qsk7A_dVWZc6l1FRS8amQ",
+                    "ranking": 57,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCL9oC0YZRwuyudZqUrgKw9w",
+                    "ranking": 58,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCsR07Y3qMhf_oKxit4xLoHg",
+                    "ranking": 59,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCmu_ekYHVR0vjmpyQZp8YwA",
+                    "ranking": 60,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCSsdK8cdN9hn3FS0mTf8iFA",
+                    "ranking": 61,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC8DE6aei0DOKa1s3PziV8Aw",
+                    "ranking": 62,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC8CIM3d3zDYMk-3T5aAz0yw",
+                    "ranking": 63,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC7uEw7E1-NBpJwE5L2Amoyg",
+                    "ranking": 64,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCg7rkxrTnIhiHEpXY1ec9NA",
+                    "ranking": 65,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCo2qwN2FUPnLLJjHXNusFyQ",
+                    "ranking": 66,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCXkY64Z4UW9XEluhplCJafQ",
+                    "ranking": 67,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCKQm9pMIE5ti11h_m6NEHpw",
+                    "ranking": 68,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCylzl5EMsHKCMeUe2TLKLKA",
+                    "ranking": 69,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCYwV9dJhAQSFrFU9JyQ5t1g",
+                    "ranking": 70,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC_Cprc-ruVm1GS0yPvqy14w",
+                    "ranking": 71,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCXCa03lRK6tlntZoJ7TUWRw",
+                    "ranking": 72,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCXVVG5ZM3SJJCh94xatR8Dg",
+                    "ranking": 73,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCscL0E82anT7mtoQjJTV6Mg",
+                    "ranking": 74,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCSWMuYooxYPorJSumJbLzCQ",
+                    "ranking": 75,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCxM_h0LDzNU0XVD8YWCb17A",
+                    "ranking": 76,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC9iXc6HmaGygDiTj5OaNqNg",
+                    "ranking": 77,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCfSy6hLYDteGVYb5h_Z2xkQ",
+                    "ranking": 78,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCouZRGq24QaCvFlslu9uD9w",
+                    "ranking": 79,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCdRDEMsLzDgoXY0AdQ1yN8g",
+                    "ranking": 80,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCzlnXVYyIG38fUrMBGOpc3w",
+                    "ranking": 81,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCLFaCqu7-o7NGqn_-uyKPBQ",
+                    "ranking": 82,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCIVFv8AiQLqM9oLHTixrNYw",
+                    "ranking": 83,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UChQ-VMvdGrYZxviQVMTJOHg",
+                    "ranking": 84,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCN5Z4EkujWOl7UMbc4J-3Cw",
+                    "ranking": 85,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCMOOio1GZ50OeJT58DGBQCA",
+                    "ranking": 86,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC4Qw1uE9kwUI4cCAx9HZtxw",
+                    "ranking": 87,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCawY6uW94r1JcBuOTqHDfow",
+                    "ranking": 88,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCfnMSbA2Bfi4cnuuN2pa0HA",
+                    "ranking": 89,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCZnrdNaOFqniv7qEEqQFvIg",
+                    "ranking": 90,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCnMBn-PNx1M9TLF0s-sEDeQ",
+                    "ranking": 91,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCWCKqaOsUJ0OzjC01ATQmPA",
+                    "ranking": 92,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCCWcDTQwUzYxxQNxP17F-Rw",
+                    "ranking": 93,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCBdRqVCFEAuJnfnHTW3RMPQ",
+                    "ranking": 94,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCt51IEo3ZxxOysVAG_ylR6w",
+                    "ranking": 95,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCADf92tisOOh90hrZee4-LA",
+                    "ranking": 96,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCmMxEFwIOMGGoThkmtZZOvQ",
+                    "ranking": 97,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UCcgCkpS7T7yXztF30hzy8DQ",
+                    "ranking": 98,
+                    "score": "0.03"
+                },
+                {
+                    "id": "UC65ZDJCYI1dwzj48XIeuOBA",
+                    "ranking": 99,
+                    "score": "0.03"
                 }
             ]
         },
         {
             "name": "CommentNumMean",
             "desc": "수다쟁이 시청자들, 여기 다 모였네",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "comment_num_mean",
             "score_desc": "영상 당 댓글 평균",
             "channel_ids": [
@@ -1112,13 +3212,363 @@
                     "id": "UCJDEss5wA1ddrCBC40giO8A",
                     "ranking": 29,
                     "score": "1716.04"
+                },
+                {
+                    "id": "UCyn_E0ZE8RNOnYnF3lVaCOQ",
+                    "ranking": 30,
+                    "score": "1686.66"
+                },
+                {
+                    "id": "UC-39bqpwYeoyvm2qHfAhHiA",
+                    "ranking": 31,
+                    "score": "1646.60"
+                },
+                {
+                    "id": "UCEcuyrAqhRVUmRdOd6FGKSw",
+                    "ranking": 32,
+                    "score": "1634.82"
+                },
+                {
+                    "id": "UCQEvlqmTcqU6SbjNhsft2wg",
+                    "ranking": 33,
+                    "score": "1634.00"
+                },
+                {
+                    "id": "UCOtcE3XmueVr78j8RCnr1QQ",
+                    "ranking": 34,
+                    "score": "1618.62"
+                },
+                {
+                    "id": "UCT7njg__VOy3n-SvXemDHvg",
+                    "ranking": 35,
+                    "score": "1602.38"
+                },
+                {
+                    "id": "UCLuDznROytXtnMSDwo5aGJQ",
+                    "ranking": 36,
+                    "score": "1565.12"
+                },
+                {
+                    "id": "UCZecnuVvQnBCoopyobFdDZg",
+                    "ranking": 37,
+                    "score": "1553.93"
+                },
+                {
+                    "id": "UCA57VZoIKNqjaBjokHPZbtg",
+                    "ranking": 38,
+                    "score": "1552.55"
+                },
+                {
+                    "id": "UCyi9eZCavFN5P6GQVokRiQg",
+                    "ranking": 39,
+                    "score": "1551.24"
+                },
+                {
+                    "id": "UCWL_9MaaMy8ObTDPmVHemjA",
+                    "ranking": 40,
+                    "score": "1534.06"
+                },
+                {
+                    "id": "UCn_9mH91rLWez9SZ6AdjfYg",
+                    "ranking": 41,
+                    "score": "1481.54"
+                },
+                {
+                    "id": "UCta_NRwnsUaew0t3VNxBNyg",
+                    "ranking": 42,
+                    "score": "1476.58"
+                },
+                {
+                    "id": "UCD2YO_A_PVMgMDN9jpRrpVA",
+                    "ranking": 43,
+                    "score": "1472.34"
+                },
+                {
+                    "id": "UCDrAR1OWC2MD4s0JLetN0MA",
+                    "ranking": 44,
+                    "score": "1466.44"
+                },
+                {
+                    "id": "UClcACsSYAi97Ka_QxX72JAA",
+                    "ranking": 45,
+                    "score": "1415.93"
+                },
+                {
+                    "id": "UCM9m5BHwm-lU7tK07co3ClA",
+                    "ranking": 46,
+                    "score": "1412.70"
+                },
+                {
+                    "id": "UCNzcxCN_Hh_lu5RCSFXKgGQ",
+                    "ranking": 47,
+                    "score": "1394.28"
+                },
+                {
+                    "id": "UCNbUh4ETUOSNq0HMMVjhieQ",
+                    "ranking": 48,
+                    "score": "1385.46"
+                },
+                {
+                    "id": "UCLGFyHp-wUhKrmNJBWZg75A",
+                    "ranking": 49,
+                    "score": "1372.90"
+                },
+                {
+                    "id": "UC3htcPlye6noa3pAgegT2AQ",
+                    "ranking": 50,
+                    "score": "1340.30"
+                },
+                {
+                    "id": "UCQOL6_MBCFXr3M9OTmwl9pg",
+                    "ranking": 51,
+                    "score": "1299.98"
+                },
+                {
+                    "id": "UCRMX7IWlG7Hqna2gDhGan_g",
+                    "ranking": 52,
+                    "score": "1299.25"
+                },
+                {
+                    "id": "UC0iFX-aClxo7TM6fE8K0duQ",
+                    "ranking": 53,
+                    "score": "1291.56"
+                },
+                {
+                    "id": "UCMBbYvXl8iHmtdtlkXt0yYA",
+                    "ranking": 54,
+                    "score": "1284.94"
+                },
+                {
+                    "id": "UCBkyj16n2snkRg1BAzpovXQ",
+                    "ranking": 55,
+                    "score": "1276.76"
+                },
+                {
+                    "id": "UCEPuItFWOOJ2o5hTu65NlEg",
+                    "ranking": 56,
+                    "score": "1231.70"
+                },
+                {
+                    "id": "UCpJw2H9KKqwCCGQKRh1Bf2w",
+                    "ranking": 57,
+                    "score": "1228.08"
+                },
+                {
+                    "id": "UCL_IvtOZo6sONpiydbzzHpA",
+                    "ranking": 58,
+                    "score": "1224.20"
+                },
+                {
+                    "id": "UCqcxF7BAF3GSz36Yx_0qGaQ",
+                    "ranking": 59,
+                    "score": "1219.96"
+                },
+                {
+                    "id": "UCCW6uYIUP4YKKe50k-ktVAw",
+                    "ranking": 60,
+                    "score": "1215.64"
+                },
+                {
+                    "id": "UC9aEa6zVK12OZaWyTIPX9jw",
+                    "ranking": 61,
+                    "score": "1191.26"
+                },
+                {
+                    "id": "UClSuqiIAACDUJrH3gb4JcLQ",
+                    "ranking": 62,
+                    "score": "1183.68"
+                },
+                {
+                    "id": "UCkQWAIUktzea2l8xT1GyVSg",
+                    "ranking": 63,
+                    "score": "1176.30"
+                },
+                {
+                    "id": "UCLdxLyuNHafN-1UlOs2BK8A",
+                    "ranking": 64,
+                    "score": "1168.30"
+                },
+                {
+                    "id": "UC3XJRyvLD7rvsVFCFS1IX0A",
+                    "ranking": 65,
+                    "score": "1158.37"
+                },
+                {
+                    "id": "UCSgvQDek_7CQj08fu7kp1Iw",
+                    "ranking": 66,
+                    "score": "1150.04"
+                },
+                {
+                    "id": "UCtJpqaQ0XAmX5uYZ48crOdQ",
+                    "ranking": 67,
+                    "score": "1146.26"
+                },
+                {
+                    "id": "UCdF0eCyf5np3lPO4y1fJVdw",
+                    "ranking": 68,
+                    "score": "1124.14"
+                },
+                {
+                    "id": "UC9-B--tzbvBUMVkGVyCTaIQ",
+                    "ranking": 69,
+                    "score": "1118.13"
+                },
+                {
+                    "id": "UCtCnnCUn9IDDQRU9_04JD3g",
+                    "ranking": 70,
+                    "score": "1112.72"
+                },
+                {
+                    "id": "UCUsrcN6Vtqr05ibbow_rnBw",
+                    "ranking": 71,
+                    "score": "1108.50"
+                },
+                {
+                    "id": "UCdrBnBNLsN4_cH32HWbr9qg",
+                    "ranking": 72,
+                    "score": "1098.72"
+                },
+                {
+                    "id": "UCQ9eDVhFn_jq7eTpjf21ouA",
+                    "ranking": 73,
+                    "score": "1095.42"
+                },
+                {
+                    "id": "UCcwEXGl8tRJTJ78WBPa7dUA",
+                    "ranking": 74,
+                    "score": "1091.26"
+                },
+                {
+                    "id": "UCqx0Xywhh72631omzTWNixA",
+                    "ranking": 75,
+                    "score": "1087.38"
+                },
+                {
+                    "id": "UC2b9TmgJ-jZt8ZAKF4DwIWg",
+                    "ranking": 76,
+                    "score": "1071.94"
+                },
+                {
+                    "id": "UCtsaNMRUmgwxMSb7xdpzALA",
+                    "ranking": 77,
+                    "score": "1064.00"
+                },
+                {
+                    "id": "UCCjR2EbSnsVKRVeTvPjVWIA",
+                    "ranking": 78,
+                    "score": "1055.39"
+                },
+                {
+                    "id": "UCQreDC73rqiw1wSc_ZYwgHA",
+                    "ranking": 79,
+                    "score": "1044.16"
+                },
+                {
+                    "id": "UC9V4iFRjgNUaPRPgvSgSlxA",
+                    "ranking": 80,
+                    "score": "1033.90"
+                },
+                {
+                    "id": "UC-2wa6jvprl7hfCpvw0ULzg",
+                    "ranking": 81,
+                    "score": "1032.06"
+                },
+                {
+                    "id": "UCxbxK61xeFoymuxmi4ik73g",
+                    "ranking": 82,
+                    "score": "1015.74"
+                },
+                {
+                    "id": "UCYhUJGAH6HhOUJokzRupkpQ",
+                    "ranking": 83,
+                    "score": "1012.58"
+                },
+                {
+                    "id": "UCKQm9pMIE5ti11h_m6NEHpw",
+                    "ranking": 84,
+                    "score": "1011.24"
+                },
+                {
+                    "id": "UCqI5lyTpC79pOy2D-VXAMdA",
+                    "ranking": 85,
+                    "score": "998.78"
+                },
+                {
+                    "id": "UCDBAVzfX3yZ1hah0FHnOoaA",
+                    "ranking": 86,
+                    "score": "997.54"
+                },
+                {
+                    "id": "UCOXPm9nqKtb2pIpO0UybBHA",
+                    "ranking": 87,
+                    "score": "990.54"
+                },
+                {
+                    "id": "UCTSaxXnhUcrhv984bVpDr6Q",
+                    "ranking": 88,
+                    "score": "988.62"
+                },
+                {
+                    "id": "UCfO-Z1ZCFn9DF5217ZySjfw",
+                    "ranking": 89,
+                    "score": "988.31"
+                },
+                {
+                    "id": "UCxM_h0LDzNU0XVD8YWCb17A",
+                    "ranking": 90,
+                    "score": "988.02"
+                },
+                {
+                    "id": "UCJprx3bX49vNl6Bcw01Cwfg",
+                    "ranking": 91,
+                    "score": "965.40"
+                },
+                {
+                    "id": "UCY74n-XQJ69dxNdN7h71wLg",
+                    "ranking": 92,
+                    "score": "959.60"
+                },
+                {
+                    "id": "UCr-Eaw_CBpAqKHbzV_GidQQ",
+                    "ranking": 93,
+                    "score": "959.40"
+                },
+                {
+                    "id": "UCoH2pCzAr6zWDG-LtUiLWRw",
+                    "ranking": 94,
+                    "score": "953.04"
+                },
+                {
+                    "id": "UCDBg2guHN1JanH7QP7i2dQQ",
+                    "ranking": 95,
+                    "score": "941.58"
+                },
+                {
+                    "id": "UCsR07Y3qMhf_oKxit4xLoHg",
+                    "ranking": 96,
+                    "score": "934.56"
+                },
+                {
+                    "id": "UCDkQMlfo7GvgvnrkPawW9tg",
+                    "ranking": 97,
+                    "score": "918.28"
+                },
+                {
+                    "id": "UCwqLV5Xndjm4Wztk-c7IMjQ",
+                    "ranking": 98,
+                    "score": "908.18"
+                },
+                {
+                    "id": "UCADf92tisOOh90hrZee4-LA",
+                    "ranking": 99,
+                    "score": "904.52"
                 }
             ]
         },
         {
             "name": "TopAbility",
             "desc": "난 나보다 못하는 유튜버는 안 봐",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "top_ability",
             "score_desc": "자체 AI가 선정한 실력파 게임 유튜버",
             "channel_ids": [
@@ -1271,13 +3721,363 @@
                     "id": "UCBa9U1nh3fe2lBx3a0R0Skg",
                     "ranking": 29,
                     "score": "57.42"
+                },
+                {
+                    "id": "UCOp9K7CjksKsve6CkNPzUWg",
+                    "ranking": 30,
+                    "score": "57.31"
+                },
+                {
+                    "id": "UCw1DsweY9b2AKGjV4kGJP1A",
+                    "ranking": 31,
+                    "score": "56.45"
+                },
+                {
+                    "id": "UCYJ0Ucu9jPX5kn6SeDcNaIQ",
+                    "ranking": 32,
+                    "score": "55.94"
+                },
+                {
+                    "id": "UCyfg0TBg4jwIqnX3uNADnhg",
+                    "ranking": 33,
+                    "score": "55.74"
+                },
+                {
+                    "id": "UChzIscohei65H-7T-Pztaww",
+                    "ranking": 34,
+                    "score": "55.57"
+                },
+                {
+                    "id": "UCRTRG3sr8my7ONpSQNruU2A",
+                    "ranking": 35,
+                    "score": "55.50"
+                },
+                {
+                    "id": "UCoH2pCzAr6zWDG-LtUiLWRw",
+                    "ranking": 36,
+                    "score": "55.32"
+                },
+                {
+                    "id": "UCj1RW5MrOLh_VrX3yHF_yow",
+                    "ranking": 37,
+                    "score": "55.01"
+                },
+                {
+                    "id": "UCHxKSivB6JLZ1SEMdxd1fAg",
+                    "ranking": 38,
+                    "score": "54.81"
+                },
+                {
+                    "id": "UC4rp07nTMJb13faNO94lm6A",
+                    "ranking": 39,
+                    "score": "54.67"
+                },
+                {
+                    "id": "UCu07k1hkdNzxLR2uc2-nYVQ",
+                    "ranking": 40,
+                    "score": "54.51"
+                },
+                {
+                    "id": "UCBo3r_IAd1EiFGe1x7GgTLw",
+                    "ranking": 41,
+                    "score": "54.28"
+                },
+                {
+                    "id": "UCJpAwvQaZyCI5spAz7tipGA",
+                    "ranking": 42,
+                    "score": "54.09"
+                },
+                {
+                    "id": "UCozuuEEitjQXtCzubNO0BGA",
+                    "ranking": 43,
+                    "score": "53.27"
+                },
+                {
+                    "id": "UCdMevbThDzHEbiqu0MhyfAQ",
+                    "ranking": 44,
+                    "score": "50.95"
+                },
+                {
+                    "id": "UCtt0Hg9MhraTkzWwNQpplHg",
+                    "ranking": 45,
+                    "score": "50.03"
+                },
+                {
+                    "id": "UCEWkdaR_6g6giiy8_vI6fmw",
+                    "ranking": 46,
+                    "score": "50.03"
+                },
+                {
+                    "id": "UCfiarPVYi8ei4vZntToFYGg",
+                    "ranking": 47,
+                    "score": "49.99"
+                },
+                {
+                    "id": "UCDWlQ2AcGlcckdefjtF0goQ",
+                    "ranking": 48,
+                    "score": "49.92"
+                },
+                {
+                    "id": "UCQfISxq5legTqOt1h1us6lg",
+                    "ranking": 49,
+                    "score": "49.77"
+                },
+                {
+                    "id": "UC4TDU9SEVB0EgslnTI2O9IQ",
+                    "ranking": 50,
+                    "score": "49.37"
+                },
+                {
+                    "id": "UCs2QSZ8p8OjLUWUllNTpPZA",
+                    "ranking": 51,
+                    "score": "48.58"
+                },
+                {
+                    "id": "UCqJB7rKizLzFYy2t_2rGahw",
+                    "ranking": 52,
+                    "score": "46.71"
+                },
+                {
+                    "id": "UCLHwMFguUxHVSk91vzicEJw",
+                    "ranking": 53,
+                    "score": "46.58"
+                },
+                {
+                    "id": "UCoYFo-lRD3pchMUtsBcEbOA",
+                    "ranking": 54,
+                    "score": "46.42"
+                },
+                {
+                    "id": "UCNday6XUUjYBs0fmjAmYTcg",
+                    "ranking": 55,
+                    "score": "45.69"
+                },
+                {
+                    "id": "UCEcuyrAqhRVUmRdOd6FGKSw",
+                    "ranking": 56,
+                    "score": "44.86"
+                },
+                {
+                    "id": "UCw7FqLmYfW-nAVhEd_grcZg",
+                    "ranking": 57,
+                    "score": "44.75"
+                },
+                {
+                    "id": "UCZ6IM7_T-bCmr_7DgAKjYxg",
+                    "ranking": 58,
+                    "score": "44.49"
+                },
+                {
+                    "id": "UC_jNan0EvSTUNKT2dj6U31A",
+                    "ranking": 59,
+                    "score": "44.06"
+                },
+                {
+                    "id": "UCt5e5QXzt_Ub5azmAk4ozAw",
+                    "ranking": 60,
+                    "score": "43.45"
+                },
+                {
+                    "id": "UCnDcpS7XLQ9KFPqULb9TH8g",
+                    "ranking": 61,
+                    "score": "43.18"
+                },
+                {
+                    "id": "UCpJw2H9KKqwCCGQKRh1Bf2w",
+                    "ranking": 62,
+                    "score": "42.86"
+                },
+                {
+                    "id": "UC-okJdotaXPlzivRzHFqzuA",
+                    "ranking": 63,
+                    "score": "42.86"
+                },
+                {
+                    "id": "UC1dG3vI9FfHnH3YgyeKUz_A",
+                    "ranking": 64,
+                    "score": "42.51"
+                },
+                {
+                    "id": "UCgmQJAJuiddthVUfJmWxltA",
+                    "ranking": 65,
+                    "score": "41.91"
+                },
+                {
+                    "id": "UCZcyI32yv57Zz0Y8-Nr1V9A",
+                    "ranking": 66,
+                    "score": "40.78"
+                },
+                {
+                    "id": "UChfs1dQ5phBDBWZJ1hHLbUA",
+                    "ranking": 67,
+                    "score": "40.67"
+                },
+                {
+                    "id": "UCOY3LbxXxCd8SykBvcVJlzg",
+                    "ranking": 68,
+                    "score": "40.64"
+                },
+                {
+                    "id": "UCb5NLtXAsTBrmaZVhyFa-Wg",
+                    "ranking": 69,
+                    "score": "40.55"
+                },
+                {
+                    "id": "UCdZGwKwvi_i5BLvFzCj4FXw",
+                    "ranking": 70,
+                    "score": "40.27"
+                },
+                {
+                    "id": "UCVgTydj9KUfDm_qmXPtx0FA",
+                    "ranking": 71,
+                    "score": "40.05"
+                },
+                {
+                    "id": "UCWOPxkftlmCstC5drb9VM_A",
+                    "ranking": 72,
+                    "score": "40.00"
+                },
+                {
+                    "id": "UCHsNxA14lzqnrm0mW7GQIXA",
+                    "ranking": 73,
+                    "score": "39.98"
+                },
+                {
+                    "id": "UC9V4iFRjgNUaPRPgvSgSlxA",
+                    "ranking": 74,
+                    "score": "39.90"
+                },
+                {
+                    "id": "UCORzNUvBtd0j_wraSf88Y4w",
+                    "ranking": 75,
+                    "score": "38.74"
+                },
+                {
+                    "id": "UCkiCNZ6c5Th3NpL2U8IhUWw",
+                    "ranking": 76,
+                    "score": "38.72"
+                },
+                {
+                    "id": "UCDBg2guHN1JanH7QP7i2dQQ",
+                    "ranking": 77,
+                    "score": "37.79"
+                },
+                {
+                    "id": "UCnkytUgy0CtWd06up9CjNxg",
+                    "ranking": 78,
+                    "score": "37.79"
+                },
+                {
+                    "id": "UC2qm7lVDDnGuvNj6D9jHFkA",
+                    "ranking": 79,
+                    "score": "37.64"
+                },
+                {
+                    "id": "UC-2wa6jvprl7hfCpvw0ULzg",
+                    "ranking": 80,
+                    "score": "37.55"
+                },
+                {
+                    "id": "UCidO_j4TWaTvUiid2WffuqA",
+                    "ranking": 81,
+                    "score": "37.55"
+                },
+                {
+                    "id": "UCRpdlPk671uOMiBtf5HtB3Q",
+                    "ranking": 82,
+                    "score": "37.26"
+                },
+                {
+                    "id": "UCZZEgBpbLP0ILVc4nGg39-w",
+                    "ranking": 83,
+                    "score": "37.18"
+                },
+                {
+                    "id": "UCdrBnBNLsN4_cH32HWbr9qg",
+                    "ranking": 84,
+                    "score": "36.94"
+                },
+                {
+                    "id": "UC7bcRlidTERRb_MKRHPVSnw",
+                    "ranking": 85,
+                    "score": "36.37"
+                },
+                {
+                    "id": "UCAJ-meoCh1TrPZ7La3UpPrw",
+                    "ranking": 86,
+                    "score": "36.36"
+                },
+                {
+                    "id": "UCAaLhok91QDrweyuDRsmjqQ",
+                    "ranking": 87,
+                    "score": "36.07"
+                },
+                {
+                    "id": "UCWf4QKgnTyvmehcRqw-JldQ",
+                    "ranking": 88,
+                    "score": "35.99"
+                },
+                {
+                    "id": "UCLoGhS_8p-G_pzrkfgMi9NA",
+                    "ranking": 89,
+                    "score": "35.98"
+                },
+                {
+                    "id": "UCY74n-XQJ69dxNdN7h71wLg",
+                    "ranking": 90,
+                    "score": "35.43"
+                },
+                {
+                    "id": "UCO5bdxKgKczSpjFbfsGykmA",
+                    "ranking": 91,
+                    "score": "35.30"
+                },
+                {
+                    "id": "UCiCNc3uj8Bnc9bDzHJS058Q",
+                    "ranking": 92,
+                    "score": "34.85"
+                },
+                {
+                    "id": "UCFIUgqzzNjCvarzIqCE89cA",
+                    "ranking": 93,
+                    "score": "33.90"
+                },
+                {
+                    "id": "UC9vI-9WYQLXKI6n9XdXXo3g",
+                    "ranking": 94,
+                    "score": "33.65"
+                },
+                {
+                    "id": "UCAm0pQmaq6dTcH2-qL6RQjQ",
+                    "ranking": 95,
+                    "score": "33.36"
+                },
+                {
+                    "id": "UCdtV_sB8WUWo-P_q3OwNfcw",
+                    "ranking": 96,
+                    "score": "33.35"
+                },
+                {
+                    "id": "UChvR-r6dtgPkXhY4rvPgq2A",
+                    "ranking": 97,
+                    "score": "33.33"
+                },
+                {
+                    "id": "UCIJBt-DqtODaUKGKI5H01fg",
+                    "ranking": 98,
+                    "score": "33.33"
+                },
+                {
+                    "id": "UCixaWz4xXA_mJg8UhOZ6hkQ",
+                    "ranking": 99,
+                    "score": "33.33"
                 }
             ]
         },
         {
             "name": "TopClean",
             "desc": "고운 말! 건강한 멘탈! 클린 유튜버",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "top_clean",
             "score_desc": "자체 AI가 선정한 클린 유튜버",
             "channel_ids": [
@@ -1430,13 +4230,363 @@
                     "id": "UCLdxLyuNHafN-1UlOs2BK8A",
                     "ranking": 29,
                     "score": "49.99"
+                },
+                {
+                    "id": "UCpJw2H9KKqwCCGQKRh1Bf2w",
+                    "ranking": 30,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UCjZy8afeI-58sPLgJIOmecg",
+                    "ranking": 31,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UCbFzvzDu17eDZ3RIeaLRswQ",
+                    "ranking": 32,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UChtdyqmH0yVFWTBJERP2PKg",
+                    "ranking": 33,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UCQgu0whGhuJ2Hr8u6htgxxw",
+                    "ranking": 34,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UCmMxEFwIOMGGoThkmtZZOvQ",
+                    "ranking": 35,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UCXhTIte6TjoItbiUVUnMIlA",
+                    "ranking": 36,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UC-okJdotaXPlzivRzHFqzuA",
+                    "ranking": 37,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UCN5Z4EkujWOl7UMbc4J-3Cw",
+                    "ranking": 38,
+                    "score": "49.98"
+                },
+                {
+                    "id": "UC9vz3TBChrJmYbzUo-rqfSg",
+                    "ranking": 39,
+                    "score": "49.95"
+                },
+                {
+                    "id": "UC31ypOxFsuU3Q0OFpQzcQ3g",
+                    "ranking": 40,
+                    "score": "49.91"
+                },
+                {
+                    "id": "UCoHsxU1eDWHom6D7Fce6kLA",
+                    "ranking": 41,
+                    "score": "49.90"
+                },
+                {
+                    "id": "UCqMixH4Cc7CdySihHG4kkIA",
+                    "ranking": 42,
+                    "score": "49.82"
+                },
+                {
+                    "id": "UCAJ-meoCh1TrPZ7La3UpPrw",
+                    "ranking": 43,
+                    "score": "49.59"
+                },
+                {
+                    "id": "UCZcyI32yv57Zz0Y8-Nr1V9A",
+                    "ranking": 44,
+                    "score": "49.54"
+                },
+                {
+                    "id": "UCidO_j4TWaTvUiid2WffuqA",
+                    "ranking": 45,
+                    "score": "49.06"
+                },
+                {
+                    "id": "UC1MO5uem_t8lRgvIBF9u83w",
+                    "ranking": 46,
+                    "score": "49.01"
+                },
+                {
+                    "id": "UCvlZOzv_B0GD9VLqdsGWfcQ",
+                    "ranking": 47,
+                    "score": "48.09"
+                },
+                {
+                    "id": "UCcL8PoeJCC6DwAcKyzw_eQg",
+                    "ranking": 48,
+                    "score": "45.80"
+                },
+                {
+                    "id": "UCUbOogiD-4PKDqaJfSOTC0g",
+                    "ranking": 49,
+                    "score": "44.97"
+                },
+                {
+                    "id": "UCnPJ_Jcl-dwFuGgqhavB8oA",
+                    "ranking": 50,
+                    "score": "44.11"
+                },
+                {
+                    "id": "UCCA8UWUW80iHqK9ymdjRwPg",
+                    "ranking": 51,
+                    "score": "43.34"
+                },
+                {
+                    "id": "UChQ-VMvdGrYZxviQVMTJOHg",
+                    "ranking": 52,
+                    "score": "42.82"
+                },
+                {
+                    "id": "UC0SsBKkmlkyNx6bo0SSAEpQ",
+                    "ranking": 53,
+                    "score": "40.47"
+                },
+                {
+                    "id": "UCgEo04TieA9BEmiDOhYQUGw",
+                    "ranking": 54,
+                    "score": "36.18"
+                },
+                {
+                    "id": "UCS3_H_feQRm4QbXipKTvSrw",
+                    "ranking": 55,
+                    "score": "35.25"
+                },
+                {
+                    "id": "UCcdlIcleb4oIK6of1ugSJ7w",
+                    "ranking": 56,
+                    "score": "33.34"
+                },
+                {
+                    "id": "UC1eIASyCXzaeOuBbGOubI9g",
+                    "ranking": 57,
+                    "score": "33.32"
+                },
+                {
+                    "id": "UCobtktl5cCEYuAKLSY0vc2w",
+                    "ranking": 58,
+                    "score": "33.31"
+                },
+                {
+                    "id": "UCWOPxkftlmCstC5drb9VM_A",
+                    "ranking": 59,
+                    "score": "33.31"
+                },
+                {
+                    "id": "UCLoGhS_8p-G_pzrkfgMi9NA",
+                    "ranking": 60,
+                    "score": "33.31"
+                },
+                {
+                    "id": "UCWCKqaOsUJ0OzjC01ATQmPA",
+                    "ranking": 61,
+                    "score": "33.29"
+                },
+                {
+                    "id": "UC8DE6aei0DOKa1s3PziV8Aw",
+                    "ranking": 62,
+                    "score": "33.19"
+                },
+                {
+                    "id": "UC0aKwoKNeqBaUwiEXmkQaGQ",
+                    "ranking": 63,
+                    "score": "33.19"
+                },
+                {
+                    "id": "UCbiqc9mdIz3XEH6LG5nCeMg",
+                    "ranking": 64,
+                    "score": "33.07"
+                },
+                {
+                    "id": "UC1q4Ihlv_YhLELw-ijE0Diw",
+                    "ranking": 65,
+                    "score": "32.84"
+                },
+                {
+                    "id": "UCGHtLohOnwNBhuJnPTjNo8g",
+                    "ranking": 66,
+                    "score": "25.22"
+                },
+                {
+                    "id": "UCMswODzU1ZjjrLyUk7NfwPA",
+                    "ranking": 67,
+                    "score": "24.96"
+                },
+                {
+                    "id": "UCQLfdihF1WwbuVcgJq6x6Iw",
+                    "ranking": 68,
+                    "score": "24.92"
+                },
+                {
+                    "id": "UCgWwo8FJL3MCxfd66ip7nFg",
+                    "ranking": 69,
+                    "score": "24.77"
+                },
+                {
+                    "id": "UC-Zedn7a_RJyb5hUQ-aGZog",
+                    "ranking": 70,
+                    "score": "24.76"
+                },
+                {
+                    "id": "UCg7rkxrTnIhiHEpXY1ec9NA",
+                    "ranking": 71,
+                    "score": "24.15"
+                },
+                {
+                    "id": "UCVJT18d9wSCnDUdnJ9ycO7Q",
+                    "ranking": 72,
+                    "score": "24.05"
+                },
+                {
+                    "id": "UCzlnXVYyIG38fUrMBGOpc3w",
+                    "ranking": 73,
+                    "score": "23.47"
+                },
+                {
+                    "id": "UCJ7PxHj3J_YeH1N2spjR6NQ",
+                    "ranking": 74,
+                    "score": "23.32"
+                },
+                {
+                    "id": "UCMBbYvXl8iHmtdtlkXt0yYA",
+                    "ranking": 75,
+                    "score": "23.08"
+                },
+                {
+                    "id": "UC2HEQnILETT1x7V9iW3H1Kw",
+                    "ranking": 76,
+                    "score": "22.33"
+                },
+                {
+                    "id": "UCHzre37UF4o64HRhp-7CDzQ",
+                    "ranking": 77,
+                    "score": "22.21"
+                },
+                {
+                    "id": "UCN5oT4zGJX-_H6pE5isAEeg",
+                    "ranking": 78,
+                    "score": "21.95"
+                },
+                {
+                    "id": "UCzMAqDi4M4CrwMSi_EnnV4g",
+                    "ranking": 79,
+                    "score": "19.54"
+                },
+                {
+                    "id": "UCkwRQReFyYUHzPqGk5vO7Tg",
+                    "ranking": 80,
+                    "score": "19.12"
+                },
+                {
+                    "id": "UC8C0Yd20ke5XqOiZvMVgM9w",
+                    "ranking": 81,
+                    "score": "18.60"
+                },
+                {
+                    "id": "UC3dt8G_iIiZXijtaaLgo1HA",
+                    "ranking": 82,
+                    "score": "18.56"
+                },
+                {
+                    "id": "UCO5bdxKgKczSpjFbfsGykmA",
+                    "ranking": 83,
+                    "score": "17.48"
+                },
+                {
+                    "id": "UCIwrzpUgafk5ZD14BaSVdGQ",
+                    "ranking": 84,
+                    "score": "17.34"
+                },
+                {
+                    "id": "UCYWW_lthmN8cvuIaN0G9D6g",
+                    "ranking": 85,
+                    "score": "17.01"
+                },
+                {
+                    "id": "UCQOL6_MBCFXr3M9OTmwl9pg",
+                    "ranking": 86,
+                    "score": "14.61"
+                },
+                {
+                    "id": "UCZcD2iYy55-SkEbv3tcMZrg",
+                    "ranking": 87,
+                    "score": "14.41"
+                },
+                {
+                    "id": "UCldBBBC3KowWN7ScJRQlZyg",
+                    "ranking": 88,
+                    "score": "14.22"
+                },
+                {
+                    "id": "UCZ0bi2aVJngKLwFTU5g_fLQ",
+                    "ranking": 89,
+                    "score": "12.96"
+                },
+                {
+                    "id": "UCYooECrv-fIXlPaDwEIaveA",
+                    "ranking": 90,
+                    "score": "12.95"
+                },
+                {
+                    "id": "UCDyc0_OWYXI1WcaMjijHrDA",
+                    "ranking": 91,
+                    "score": "12.95"
+                },
+                {
+                    "id": "UCQreDC73rqiw1wSc_ZYwgHA",
+                    "ranking": 92,
+                    "score": "12.92"
+                },
+                {
+                    "id": "UCHvz6pwNdtkhukP6oPOOnQg",
+                    "ranking": 93,
+                    "score": "12.89"
+                },
+                {
+                    "id": "UCv0Fm-Ge7D_zmN9Gw9x2cMA",
+                    "ranking": 94,
+                    "score": "12.64"
+                },
+                {
+                    "id": "UC58e7PIf49oMlDljMFPSy0w",
+                    "ranking": 95,
+                    "score": "12.05"
+                },
+                {
+                    "id": "UClDbuB3bgZYVIaN3534c_ew",
+                    "ranking": 96,
+                    "score": "11.80"
+                },
+                {
+                    "id": "UCL9oC0YZRwuyudZqUrgKw9w",
+                    "ranking": 97,
+                    "score": "11.69"
+                },
+                {
+                    "id": "UC9aEa6zVK12OZaWyTIPX9jw",
+                    "ranking": 98,
+                    "score": "11.25"
+                },
+                {
+                    "id": "UCMJhnmKJ6xwRIFL1ZFb9QrA",
+                    "ranking": 99,
+                    "score": "11.11"
                 }
             ]
         },
         {
             "name": "AbilityMaster",
             "desc": "장인 이라고 불리는 유튜버",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "ability_master",
             "score_desc": "자체 AI가 선정한 '장인' 유튜버",
             "channel_ids": [
@@ -1589,13 +4739,223 @@
                     "id": "UCOY3LbxXxCd8SykBvcVJlzg",
                     "ranking": 29,
                     "score": "1.00"
+                },
+                {
+                    "id": "UCRTRG3sr8my7ONpSQNruU2A",
+                    "ranking": 30,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCFHUplScMiWTjJrtv4hxWmg",
+                    "ranking": 31,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCBo3r_IAd1EiFGe1x7GgTLw",
+                    "ranking": 32,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCHxKSivB6JLZ1SEMdxd1fAg",
+                    "ranking": 33,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCqJB7rKizLzFYy2t_2rGahw",
+                    "ranking": 34,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UC4rp07nTMJb13faNO94lm6A",
+                    "ranking": 35,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCeivPjjK9-cdj8-gw4-7JRg",
+                    "ranking": 36,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCLHwMFguUxHVSk91vzicEJw",
+                    "ranking": 37,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCNday6XUUjYBs0fmjAmYTcg",
+                    "ranking": 38,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCLtZE7A3iN-oysHf5_vJYBA",
+                    "ranking": 39,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCK1B7KLih3kE1Iy0SCBDzkQ",
+                    "ranking": 40,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCyfg0TBg4jwIqnX3uNADnhg",
+                    "ranking": 41,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCDYdwDXhbVZXkdV6kZn-0IQ",
+                    "ranking": 42,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCoYFo-lRD3pchMUtsBcEbOA",
+                    "ranking": 43,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UChfs1dQ5phBDBWZJ1hHLbUA",
+                    "ranking": 44,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCYG8tuvbQzWsDeoADyJFU8Q",
+                    "ranking": 45,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UC7g2JNSc0SefzMTyc--Nn4w",
+                    "ranking": 46,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCoIoRtXGGPCaOE0qQHKXjvw",
+                    "ranking": 47,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCVgTydj9KUfDm_qmXPtx0FA",
+                    "ranking": 48,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCt5e5QXzt_Ub5azmAk4ozAw",
+                    "ranking": 49,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UC9aktiWNGpSJKLshflga5yw",
+                    "ranking": 50,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCmJ4DkPFPzjR2TkJ7lXSQWw",
+                    "ranking": 51,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UC4TDU9SEVB0EgslnTI2O9IQ",
+                    "ranking": 52,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCw7FqLmYfW-nAVhEd_grcZg",
+                    "ranking": 53,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UC-okJdotaXPlzivRzHFqzuA",
+                    "ranking": 54,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCbGzoa8xSdjr-B3UdI06yPA",
+                    "ranking": 55,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UC1dG3vI9FfHnH3YgyeKUz_A",
+                    "ranking": 56,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCOp9K7CjksKsve6CkNPzUWg",
+                    "ranking": 57,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCDWlQ2AcGlcckdefjtF0goQ",
+                    "ranking": 58,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UChzIscohei65H-7T-Pztaww",
+                    "ranking": 59,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCeq0Nrch5KY3VrZyn_BB32g",
+                    "ranking": 60,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCs0LzOveQMLImmmTrMmP2sg",
+                    "ranking": 61,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCBa9U1nh3fe2lBx3a0R0Skg",
+                    "ranking": 62,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCSzHok6X5qXEO7cjvVnE62g",
+                    "ranking": 63,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UChD2kf1XO2sxR4t4s_oPPMA",
+                    "ranking": 64,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCdZGwKwvi_i5BLvFzCj4FXw",
+                    "ranking": 65,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCZ6IM7_T-bCmr_7DgAKjYxg",
+                    "ranking": 66,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UC_jNan0EvSTUNKT2dj6U31A",
+                    "ranking": 67,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCINRJxfiq8pXfQm1EucWFfw",
+                    "ranking": 68,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCF7IBIvHZ2be4Ufo8i0uHBw",
+                    "ranking": 69,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCEWkdaR_6g6giiy8_vI6fmw",
+                    "ranking": 70,
+                    "score": "1.00"
+                },
+                {
+                    "id": "UCoH2pCzAr6zWDG-LtUiLWRw",
+                    "ranking": 71,
+                    "score": "1.00"
                 }
             ]
         },
         {
             "name": "AbilityLecture",
             "desc": "게임 잘해지고 싶으면 드루와",
-            "channel_num": 30,
+            "channel_num": 100,
             "builder_func_name": "ability_lecture",
             "score_desc": "자체 AI 선정 강의 컨텐츠 보유 유튜버",
             "channel_ids": [

@@ -38,61 +38,16 @@ router.get("/", async function (req, res, next) {
     return;
   }
 
-  let json = [];
-  for (let summary_item of summary_json.summary_items) {
-    try {
-      let query_filter = {
-        id: {
-          $in: summary_item.channel_ids.map((item) => item.id),
-        },
-      };
+  //캐싱 불러오기 방식
+  let json = null;
+  json = await fs.readFile(
+    path.join(__ROOT_DIR, config.SUMMARY_CACHE),
+    "utf-8"
+  );
+  json = JSON.parse(json);
 
-      let id_rank_list = summary_item.channel_ids;
-      let qresults = await Channel.find(query_filter).exec();
-      let channels = [];
-      for (let qresult of qresults) {
-        let qresult_rank = 0;
-        let qresult_score = 0;
-        id_rank_list.forEach((id_rank) => {
-          if (id_rank.id == qresult.id) {
-            qresult_rank = id_rank.ranking;
-            qresult_score = id_rank.score;
-          }
-        });
-        let qresult_game_tag = new Set();
-        qresult.videos.forEach((video) => {
-          qresult_game_tag.add(video.game_tag);
-        });
-        channels.push({
-          channel_id: qresult.id,
-          channel_rank: qresult_rank,
-          channel_score: qresult_score,
-          channel_filter: [qresult.sex, ...qresult_game_tag],
-          channel_title: qresult.title,
-          channel_photo: qresult.profile_img,
-          channel_banner: qresult.banner_img,
-          subscriber_num: qresult.subscriber_num.sort((a, b) => {
-            return new Date(b.date) - new Date(a.date);
-          })[0],
-          video_num: qresult.video_num.sort((a, b) => {
-            return new Date(b.date) - new Date(a.date);
-          })[0],
-          view_num: qresult.view_num.sort((a, b) => {
-            return new Date(b.date) - new Date(a.date);
-          })[0],
-        });
-      }
-
-      json.push({
-        list_name: summary_item.name,
-        list_desc: summary_item.desc,
-        list_score_desc: summary_item.score_desc,
-        channels: channels,
-      });
-    } catch (err) {
-      logger.warning(`${err.stack}`, (request = req));
-    }
-  }
+  // 기존 라이브 생성 방식 & 캐싱 파일 생성하기
+  // let json = await cacheSummary(summary_json);
 
   if (json.length == 0) {
     logger.error("Empty json", (request = req));
@@ -140,6 +95,78 @@ async function buildSummary(summary_json) {
   } catch (err) {
     throw err;
   }
+}
+
+async function cacheSummary(summary_json) {
+  logger.info(`Building ${config.SUMMARY_CACHE}...`);
+
+  let json = [];
+  for (let summary_item of summary_json.summary_items) {
+    try {
+      let query_filter = {
+        id: {
+          $in: summary_item.channel_ids.map((item) => item.id),
+        },
+      };
+
+      let id_rank_list = summary_item.channel_ids;
+      let qresults = await Channel.find(query_filter).exec();
+      let channels = [];
+      for (let qresult of qresults) {
+        let qresult_rank = 0;
+        let qresult_score = 0;
+        id_rank_list.forEach((id_rank) => {
+          if (id_rank.id == qresult.id) {
+            qresult_rank = id_rank.ranking;
+            qresult_score = id_rank.score;
+          }
+        });
+        let qresult_game_tag = new Set();
+        qresult.videos.forEach((video) => {
+          qresult_game_tag.add(video.game_tag);
+        });
+        channels.push({
+          channel_id: qresult.id,
+          channel_rank: qresult_rank,
+          channel_score: qresult_score,
+          channel_filter: [
+            qresult.sex,
+            ...qresult.live_platform,
+            ...qresult_game_tag,
+          ],
+          channel_title: qresult.title,
+          channel_photo: qresult.profile_img,
+          channel_banner: qresult.banner_img,
+          subscriber_num: qresult.subscriber_num.sort((a, b) => {
+            return new Date(b.date) - new Date(a.date);
+          })[0],
+          video_num: qresult.video_num.sort((a, b) => {
+            return new Date(b.date) - new Date(a.date);
+          })[0],
+          view_num: qresult.view_num.sort((a, b) => {
+            return new Date(b.date) - new Date(a.date);
+          })[0],
+        });
+      }
+
+      json.push({
+        list_name: summary_item.name,
+        list_desc: summary_item.desc,
+        list_score_desc: summary_item.score_desc,
+        channels: channels,
+      });
+    } catch (err) {
+      logger.warning(`${err.stack}`, (request = req));
+    }
+  }
+
+  await fs.writeFile(
+    path.join(__ROOT_DIR, config.SUMMARY_CACHE),
+    JSON.stringify(json, null, 4),
+    "utf-8"
+  );
+
+  return json;
 }
 
 module.exports = router;
